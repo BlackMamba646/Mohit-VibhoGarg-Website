@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>विभोर गर्ग | लुधियाना दक्षिण</title>
+<meta name="description" content="विभोर गर्ग, सीनियर भाजपा नेता, लुधियाना दक्षिण — राजनीतिक सफर (2020 से), सामाजिक कार्य, संकल्प, गैलरी, सोशल मीडिया और संपर्क।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&family=Hind:wght@400;500;600;700&family=Tiro+Devanagari+Hindi&family=Noto+Sans+Gurmukhi:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0a14; --bg2:#12101d; --panel:#171424; --saffron:#ff7a1a; --saffron-2:#ffb066; --green:#138a4a; --green-2:#1fae63;
+    --text:#fff7ef; --muted:#c9bfb4; --line:rgba(255,176,102,.22);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:70px}
+  body{background:var(--bg);color:var(--text);font-family:Hind,'Noto Sans Devanagari','Noto Sans Gurmukhi',system-ui,sans-serif;line-height:1.7;overflow-x:hidden}
+  a{color:inherit}
+  img{max-width:100%;display:block}
+  svg{width:16px;height:16px;fill:currentColor;flex:none}
+
+  /* ================= HERO (original main page) ================= */
+  #hero{position:relative;height:100vh;height:100svh;min-height:560px;overflow:hidden;background:var(--bg)}
+  #scene{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .vignette{position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(ellipse at 50% 55%,transparent 45%,rgba(5,4,10,.85) 100%)}
+  .ui{position:absolute;inset:0;pointer-events:none;display:flex;flex-direction:column;justify-content:space-between;padding:28px 40px}
+  header.top{position:relative;display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand img{width:46px;height:46px;border-radius:12px;box-shadow:0 0 24px rgba(255,122,26,.5)}
+  .brand span{font-weight:600;font-size:15px;color:var(--muted)}
+  .jsr{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:'Tiro Devanagari Hindi','Noto Sans Gurmukhi',serif;font-size:clamp(20px,2.2vw,30px);white-space:nowrap;
+    background:linear-gradient(180deg,#ffe2c2,var(--saffron));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 14px rgba(255,122,26,.55));animation:fadein 1.2s forwards}
+  @keyframes fadein{from{opacity:0}to{opacity:1}}
+  .pill{font-size:15px;font-weight:500;border:1px solid rgba(255,176,102,.4);
+    padding:8px 14px;border-radius:999px;color:var(--saffron-2);background:rgba(255,122,26,.08);backdrop-filter:blur(6px)}
+  .copy{max-width:560px;align-self:flex-start;margin-bottom:3vh}
+  .eyebrow{font-family:'Tiro Devanagari Hindi','Noto Sans Gurmukhi',serif;color:var(--saffron-2);font-size:20px;margin-bottom:10px;opacity:0;animation:up .9s .2s forwards}
+  h1{font-family:Teko,'Noto Sans Devanagari','Noto Sans Gurmukhi',sans-serif;font-weight:700;line-height:.95;font-size:clamp(60px,min(10vw,17vh),150px);padding-top:.1em;
+    background:linear-gradient(180deg,#fff 0%,#ffd7b0 55%,var(--saffron) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 6px 30px rgba(255,122,26,.35));opacity:0;animation:up .9s .35s forwards}
+  .seat{display:flex;align-items:center;gap:14px;margin:14px 0 16px;opacity:0;animation:up .9s .5s forwards}
+  .seat i{display:block;width:44px;height:3px;background:linear-gradient(90deg,var(--saffron),var(--green));border-radius:3px}
+  .seat b{font-weight:600;font-size:20px}
+  .role{margin:-6px 0 14px;opacity:0;animation:up .9s .6s forwards}
+  .role span{display:inline-block;padding:6px 16px;border-radius:999px;border:1px solid rgba(255,122,26,.55);background:rgba(255,122,26,.12);color:var(--saffron-2);font-weight:600;font-size:15px;letter-spacing:.2px}
+  .soon{font-family:Teko,'Noto Sans Gurmukhi',sans-serif;font-weight:600;font-size:clamp(30px,3.4vw,46px);line-height:1.1;opacity:0;animation:up .9s .65s forwards}
+  .soon em{font-style:normal;color:var(--saffron)}
+  .sub{color:var(--muted);font-size:17px;line-height:1.7;margin-top:10px;max-width:440px;opacity:0;animation:up .9s .8s forwards}
+  .social{display:flex;gap:10px;margin-top:22px;pointer-events:auto;opacity:0;animation:up .9s .95s forwards}
+  .social a,.btn{display:inline-flex;align-items:center;gap:8px;color:var(--text);text-decoration:none;font-size:13px;font-weight:500;
+    padding:10px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05);backdrop-filter:blur(8px);transition:.25s}
+  .social a:hover,.btn:hover{border-color:var(--saffron);background:rgba(255,122,26,.18);transform:translateY(-2px)}
+  .social.contact{margin-top:14px;flex-wrap:wrap}
+  .social.contact + .social{margin-top:10px}
+  .clabel{margin-top:16px;font-weight:600;color:var(--saffron-2);font-size:16px;opacity:0;animation:up .9s .9s forwards}
+  .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;pointer-events:auto;opacity:0;animation:up .9s .8s forwards}
+  .cta a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:15px;padding:11px 20px;border-radius:999px;transition:.25s}
+  .cta a.p{background:linear-gradient(90deg,var(--saffron),#ff9a45);color:#1a0d02;box-shadow:0 8px 28px rgba(255,122,26,.35)}
+  .cta a.s{border:1px solid rgba(255,176,102,.45);color:var(--saffron-2);background:rgba(255,122,26,.08)}
+  .cta a:hover{transform:translateY(-2px)}
+  .cta svg{width:15px;height:15px}
+  .hfoot{display:flex;justify-content:space-between;font-size:13px;color:rgba(201,191,180,.6)}
+  .scrollcue{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);font-size:12px;color:var(--muted);letter-spacing:.08em;display:flex;flex-direction:column;align-items:center;gap:4px;pointer-events:none;animation:bob 2s ease-in-out infinite}
+  .scrollcue i{width:1px;height:22px;background:linear-gradient(var(--saffron),transparent)}
+  @keyframes bob{50%{transform:translate(-50%,5px)}}
+  .loader{position:absolute;inset:0;background:var(--bg);display:grid;place-items:center;z-index:5;transition:opacity .8s}
+  .loader div{width:46px;height:46px;border-radius:50%;border:3px solid rgba(255,122,26,.2);border-top-color:var(--saffron);animation:spin 1s linear infinite}
+  .loader.done{opacity:0;pointer-events:none}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+
+  /* ================= NAV ================= */
+  #nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;gap:18px;padding:10px 28px;
+    background:rgba(11,10,20,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transform:translateY(-110%);transition:transform .35s}
+  #nav.show{transform:none}
+  #nav .nb{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:Teko,'Noto Sans Gurmukhi',sans-serif;font-size:24px;font-weight:600;white-space:nowrap}
+  #nav .nb img{width:34px;height:34px;border-radius:9px}
+  #nav ul{display:flex;gap:4px;list-style:none;margin-left:auto;overflow-x:auto;scrollbar-width:none}
+  #nav ul::-webkit-scrollbar{display:none}
+  #nav li a{display:block;text-decoration:none;font-size:14px;font-weight:500;color:var(--muted);padding:6px 12px;border-radius:999px;white-space:nowrap;transition:.2s}
+  #nav li a:hover,#nav li a.on{color:#1a0d02;background:var(--saffron-2)}
+
+  /* ================= SECTIONS ================= */
+  section.s{position:relative;padding:96px 28px}
+  section.s:nth-of-type(even){background:var(--bg2)}
+  .wrap{max-width:1120px;margin:0 auto}
+  .kicker{font-family:'Tiro Devanagari Hindi','Noto Sans Gurmukhi',serif;color:var(--saffron-2);font-size:18px}
+  h2{font-family:Teko,'Noto Sans Devanagari','Noto Sans Gurmukhi',sans-serif;font-weight:700;font-size:clamp(40px,6vw,68px);line-height:1.05;margin:4px 0 14px;
+    background:linear-gradient(180deg,#fff 0%,#ffd7b0 60%,var(--saffron) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;padding-top:.08em}
+  .lead{color:var(--muted);font-size:18px;max-width:640px}
+  .bar{display:block;width:60px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--saffron),var(--green-2));margin:14px 0 36px}
+  h3{font-family:'Tiro Devanagari Hindi','Noto Sans Gurmukhi',serif;font-weight:400;font-size:26px;color:var(--saffron-2);margin-bottom:14px}
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+  .reveal.in,.noio .reveal{opacity:1;transform:none}
+
+  /* about */
+  .about{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:start}
+  .portrait{position:relative;border-radius:28px;background:radial-gradient(circle at 50% 35%,rgba(255,122,26,.35),transparent 65%),var(--panel);border:1px solid var(--line);padding:24px 20px 0;overflow:hidden}
+  .portrait img{width:100%;max-width:420px;margin:0 auto}
+  .portrait .tag{position:absolute;left:16px;bottom:16px;background:rgba(11,10,20,.78);border:1px solid var(--line);border-radius:14px;padding:8px 14px;font-size:14px}
+  .portrait .tag b{display:block;font-family:Teko,'Noto Sans Gurmukhi',sans-serif;font-size:22px;line-height:1.1;color:var(--saffron-2)}
+  .facts{list-style:none;background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:8px 24px}
+  .facts li{display:flex;gap:16px;padding:13px 0;border-bottom:1px dashed rgba(255,255,255,.1);font-size:17px}
+  .facts li:last-child{border:0}
+  .facts li span:first-child{flex:0 0 120px;color:var(--saffron-2);font-weight:600}
+  .family{margin-top:18px;background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:18px 24px}
+  .family h4{font-family:'Tiro Devanagari Hindi','Noto Sans Gurmukhi',serif;font-weight:400;font-size:20px;color:var(--saffron-2);margin-bottom:6px}
+  .family p{color:var(--muted);font-size:16px}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+  .stat{background:linear-gradient(160deg,rgba(255,122,26,.16),rgba(19,138,74,.1));border:1px solid var(--line);border-radius:18px;padding:16px 14px;text-align:center}
+  .stat b{display:block;font-family:Teko,'Noto Sans Gurmukhi',sans-serif;font-size:42px;line-height:1;color:var(--saffron-2)}
+  .stat span{font-size:13px;color:var(--muted);line-height:1.4;display:block;margin-top:4px}
+
+  /* timeline */
+  .timeline{position:relative;padding-left:0}
+  .timeline:before{content:"";position:absolute;left:54px;top:8px;bottom:8px;width:3px;background:linear-gradient(var(--saffron),var(--green-2));border-radius:3px;opacity:.7}
+  .tl{display:flex;gap:26px;margin-bottom:26px}
+  .yr{flex:0 0 110px;position:relative;z-index:1;align-self:flex-start;text-align:center;font-family:Teko,'Noto Sans Gurmukhi',sans-serif;font-weight:600;font-size:28px;line-height:1;
+    background:var(--green);color:#fff;padding:9px 0 7px;border-radius:12px;box-shadow:0 0 0 6px var(--bg),0 8px 24px rgba(19,138,74,.35)}
+  section.s:nth-of-type(even) .yr{box-shadow:0 0 0 6px var(--bg2),0 8px 24px rgba(19,138,74,.35)}
+  .tlc{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:18px 24px}
+  .tlc ul{list-style:none;display:grid;gap:12px}
+  .tlc li{position:relative;padding-left:22px;font-size:17px}
+  .tlc li:before{content:"";position:absolute;left:0;top:.7em;width:8px;height:8px;border-radius:50%;background:var(--saffron)}
+  .tlc b{color:var(--saffron-2);font-weight:600}
+
+  /* work */
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .box{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:24px}
+  .box ul{list-style:none;display:grid;gap:11px}
+  .box li{position:relative;padding-left:22px;font-size:16.5px}
+  .box li:before{content:"";position:absolute;left:0;top:.65em;width:8px;height:8px;border-radius:2px;background:linear-gradient(135deg,var(--saffron),var(--green-2))}
+  .box li .role{display:inline-block;margin-right:8px;font-size:13px;font-weight:700;color:#1a0d02;background:var(--saffron-2);padding:0 10px;border-radius:999px}
+  .box .award{margin-top:18px;padding:14px 16px;border-radius:14px;background:rgba(31,174,99,.12);border:1px solid rgba(31,174,99,.4);font-size:15.5px}
+  .box .award b{color:#7be3ac}
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:26px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:20px}
+  .card h4{font-size:18px;color:var(--saffron-2);margin-bottom:6px;line-height:1.3}
+  .card p{font-size:15px;color:var(--muted);line-height:1.6}
+
+
+
+  /* language switcher */
+  #lang{position:fixed;right:14px;bottom:14px;z-index:60;display:flex;gap:2px;padding:4px;border-radius:999px;background:rgba(11,10,20,.88);border:1px solid var(--line);backdrop-filter:blur(12px);box-shadow:0 8px 28px rgba(0,0,0,.45)}
+  #lang button{border:0;background:transparent;color:var(--muted);font:600 14px/1 Hind,'Noto Sans Gurmukhi',system-ui,sans-serif;min-width:44px;height:38px;border-radius:999px;cursor:pointer;transition:.2s}
+  #lang button:hover{color:#fff}
+  #lang button.on{background:linear-gradient(90deg,var(--saffron),#ff9a45);color:#1a0d02}
+  @media (max-width:820px){#lang{right:10px;bottom:10px}#lang button{min-width:42px;height:36px;font-size:13px}}
+
+
+  /* logo cursor */
+  .logo-cur{position:fixed;left:0;top:0;width:0;height:0;z-index:99999;pointer-events:none;opacity:0;transition:opacity .25s}
+  .logo-cur.on{opacity:1}
+  .logo-cur img{max-width:none;max-height:none;position:absolute;left:-20px;top:-20px;width:40px;height:40px;border-radius:50%;box-shadow:0 2px 10px rgba(0,0,0,.55),0 0 0 1.5px rgba(255,255,255,.85);background:#fff;will-change:transform}
+  .logo-cur i{position:absolute;left:-3px;top:-3px;width:6px;height:6px;border-radius:50%;background:var(--saffron);box-shadow:0 0 10px var(--saffron)}
+  @media (hover:none),(pointer:coarse){.logo-cur{display:none}}
+
+  /* services + sankalp */
+  .svc{display:grid;grid-template-columns:1.25fr 1fr;gap:24px;align-items:start;margin-top:4px}
+  .svlist{list-style:none;display:grid;gap:12px}
+  .svlist li{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 18px 14px 50px;font-size:16.5px;line-height:1.6}
+  .svlist li:before{content:"";position:absolute;left:18px;top:19px;width:18px;height:12px;background:var(--saffron);clip-path:polygon(0 30%,60% 30%,60% 0,100% 50%,60% 100%,60% 70%,0 70%)}
+  .svfig{background:var(--panel);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+  .svfig img{width:100%;height:auto}
+  .svfig figcaption{padding:10px 16px 12px;font-size:14px;color:var(--muted)}
+  .slogan{margin-top:30px;border-radius:26px;padding:34px 28px;text-align:center;background:linear-gradient(120deg,#0f7a42,#1fae63 40%,var(--saffron));box-shadow:0 20px 60px rgba(31,174,99,.18)}
+  .slogan b{display:block;font-family:Teko,'Noto Sans Devanagari','Noto Sans Gurmukhi',sans-serif;font-weight:700;font-size:clamp(34px,5vw,56px);line-height:1.1;color:#fff}
+  .slogan span{display:block;font-family:'Tiro Devanagari Hindi','Noto Sans Gurmukhi',serif;font-size:clamp(20px,2.6vw,28px);color:#fff4e6;margin:4px 0 12px}
+  .slogan em{font-style:normal;display:inline-block;font-weight:600;font-size:15.5px;color:#1a0d02;background:#ffe2c2;padding:5px 18px;border-radius:999px}
+
+  /* gallery */
+  .masonry{columns:3;column-gap:16px}
+  .gi{break-inside:avoid;margin-bottom:16px;background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+  .gi button,.pi button{display:block;width:100%;border:0;background:none;cursor:zoom-in;overflow:hidden}
+  .gi img,.pi img{width:100%;height:auto;transition:transform .5s}
+  .gi:hover img,.pi:hover img{transform:scale(1.04)}
+  .gi figcaption,.pi figcaption{padding:12px 16px 14px;font-size:14.5px;color:var(--muted);line-height:1.55}
+  .pi figcaption b{display:block;color:var(--saffron-2);font-weight:600;margin-bottom:2px;font-size:13.5px}
+  .press{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start}
+  .pi{background:#fff8f1;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .pi figcaption{background:var(--panel)}
+  .sub-h{margin:56px 0 18px}
+
+  /* lightbox */
+  #lb{position:fixed;inset:0;z-index:100;background:rgba(5,4,10,.94);display:none;align-items:center;justify-content:center;flex-direction:column;padding:56px 16px 20px}
+  #lb.open{display:flex}
+  #lb img{max-width:min(1100px,94vw);max-height:76vh;object-fit:contain;border-radius:10px}
+  #lb p{max-width:760px;text-align:center;margin-top:14px;color:var(--muted);font-size:16px}
+  #lb .ct{position:absolute;top:16px;left:20px;color:var(--muted);font-size:14px}
+  #lb button{position:absolute;border:1px solid var(--line);background:rgba(255,255,255,.08);color:#fff;border-radius:50%;width:46px;height:46px;font-size:22px;cursor:pointer}
+  #lb .x{top:12px;right:16px}
+  #lb .pv{left:14px;top:50%}
+  #lb .nx{right:14px;top:50%}
+  #lb button:hover{background:var(--saffron);color:#1a0d02}
+
+  /* social */
+  .platforms{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .plat{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:22px}
+  .plat.full{grid-column:1/-1}
+  .ph{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+  .ph .ico{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--saffron),var(--green));color:#fff}
+  .ph .ico svg{width:22px;height:22px}
+  .ph h4{font-family:Teko,'Noto Sans Gurmukhi',sans-serif;font-weight:600;font-size:28px;line-height:1}
+  .pbtn{margin-left:auto;display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:13.5px;font-weight:600;padding:8px 14px;border-radius:999px;border:1px solid var(--line);color:var(--saffron-2);background:rgba(255,122,26,.08);transition:.25s}
+  .pbtn:hover{background:var(--saffron);color:#1a0d02;border-color:var(--saffron)}
+  .pbtn.wa{background:var(--green);color:#fff;border-color:var(--green)}
+  .pg{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:11px 0;border-top:1px dashed rgba(255,255,255,.1)}
+  .pgn{font-weight:600;font-size:16px;line-height:1.3}
+  .hnd{font-size:13px;color:var(--muted)}
+  .ph + .pg{border-top:0}
+  .chips{display:flex;gap:8px;flex-wrap:wrap}
+  .chip{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-size:13px;font-weight:500;padding:6px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.05);transition:.2s}
+  .chip svg{width:13px;height:13px;color:var(--saffron)}
+  .chip:hover{border-color:var(--saffron);background:rgba(255,122,26,.18);transform:translateY(-1px)}
+  .plat .row{padding:11px 0;border-top:1px dashed rgba(255,255,255,.1)}
+  .plat .row:first-of-type{border-top:0}
+  .note{margin-top:20px;font-size:14px;color:rgba(201,191,180,.75)}
+
+  /* vision */
+  .goals{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  .goal{display:flex;gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:20px 22px;align-items:flex-start}
+  .goal:last-child:nth-child(odd){grid-column:1/-1}
+  .gn{font-family:Teko,'Noto Sans Gurmukhi',sans-serif;font-size:40px;line-height:1;color:var(--saffron);opacity:.9}
+  .goal p{font-size:16px;line-height:1.6}
+  .goal p b{display:block;font-size:18px;color:#fff;margin-bottom:3px}
+  .goal p span{color:var(--muted)}
+  .msg{margin-top:34px;border-radius:28px;padding:42px 36px;text-align:center;background:linear-gradient(120deg,#c24f06,var(--saffron) 45%,#1c8a4f);color:#fff;position:relative;overflow:hidden;box-shadow:0 20px 60px rgba(255,122,26,.25)}
+  .msg h3{color:#fff;font-size:30px;margin-bottom:12px}
+  .msg p{max-width:760px;margin:0 auto;font-size:18.5px;line-height:1.85;font-weight:500}
+
+  /* contact */
+  .cgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:22px}
+  .ci{display:grid;gap:14px}
+  .crow{display:flex;gap:14px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:16px 18px}
+  .crow .ico{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--saffron),var(--green));flex:none}
+  .crow .ico svg{width:20px;height:20px}
+  .crow small{display:block;color:var(--muted);font-size:13px;line-height:1.3}
+  .crow b{font-size:18px;font-weight:600;word-break:break-word}
+  .crow .go{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+  .crow button{border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--saffron-2);font:inherit;font-size:12.5px;padding:5px 12px;border-radius:999px;cursor:pointer}
+  .crow button:hover{background:var(--saffron);color:#1a0d02}
+  .addr{background:linear-gradient(160deg,rgba(255,122,26,.14),rgba(19,138,74,.12));border:1px solid var(--line);border-radius:22px;padding:28px}
+  .addr h3{margin-bottom:8px}
+  .addr p{font-size:17.5px;margin-bottom:12px}
+  .addr .on{display:inline-block;background:var(--green);color:#fff;border-radius:999px;padding:3px 14px;font-size:14px;font-weight:600;margin-bottom:14px}
+  .addr .btn{margin-top:6px;text-decoration:none}
+
+  footer.f{padding:34px 28px;text-align:center;border-top:1px solid var(--line);background:#07060d;color:rgba(201,191,180,.7);font-size:14px}
+  footer.f img{width:44px;margin:0 auto 10px;border-radius:12px}
+  footer.f .jsr2{font-family:'Tiro Devanagari Hindi','Noto Sans Gurmukhi',serif;color:var(--saffron-2);font-size:20px;margin-bottom:6px}
+
+  @media (max-width:980px){
+    .cards{grid-template-columns:repeat(2,1fr)}
+    .masonry{columns:2}
+    .press{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:820px){
+    #hero{min-height:640px}
+    .ui{padding:18px 16px}
+    .brand span{display:none}
+    .jsr{font-size:17px}
+    .pill{font-size:12px;padding:7px 10px}
+    .copy{align-self:stretch;text-align:center;margin:auto 0 2vh}
+    h1{font-size:clamp(44px,13.5vw,60px)}
+    h1 br{display:none}
+    .sub{display:none}
+    .seat{margin:8px 0 10px}
+    .seat i{display:none}
+    .seat b{font-size:17px}
+    .role{margin:-2px 0 8px;text-align:center}
+    .role span{font-size:13.5px;padding:5px 13px}
+    .clabel{margin-top:10px}
+    .cta{margin-top:12px}
+    .seat,.social,.cta{justify-content:center}
+    .sub{margin-left:auto;margin-right:auto;font-size:14px}
+    .social a{padding:8px 12px;font-size:12px}
+    .clabel{margin-top:12px}
+    .eyebrow{display:none}
+    .hfoot{display:none}
+    .scrollcue{display:none}
+    .cta a{padding:10px 16px;font-size:14px}
+    .soon{font-size:clamp(26px,7vw,36px)}
+
+    #nav{padding:8px 12px;gap:8px}
+    #nav .nb span{display:none}
+    section.s{padding:68px 16px}
+    .about,.two,.cgrid,.platforms,.goals,.svc{grid-template-columns:1fr}
+    .portrait img{max-width:300px}
+    .facts li{flex-direction:column;gap:0}
+    .facts li span:first-child{flex:none}
+    .timeline:before{left:35px}
+    .tl{gap:14px}
+    .yr{flex:0 0 72px;font-size:22px}
+    .tlc{padding:14px 16px}
+    .tlc li{font-size:15.5px}
+    .msg{padding:30px 20px}
+    .msg p{font-size:16.5px}
+    .stats{grid-template-columns:1fr 1fr 1fr}
+    .stat b{font-size:34px}
+    .crow{flex-wrap:wrap}
+    .crow .go{margin-left:0;width:100%;justify-content:flex-start}
+  }
+  @media (max-width:560px){
+    .cards{grid-template-columns:1fr}
+    .masonry{columns:1}
+    .press{grid-template-columns:1fr}
+    .pbtn{margin-left:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;scroll-behavior:auto!important}.reveal{transition:none}}
+</style>
+</head>
+<body>
+
+<nav id="nav" aria-label="मुख्य मेनू">
+  <a class="nb" href="#hero"><img src="img/bjp-lotus.webp" alt="भाजपा कमल"><span>विभोर गर्ग</span></a>
+  <ul>
+    <li><a href="#about">परिचय</a></li>
+    <li><a href="#journey">राजनीतिक सफर</a></li>
+    <li><a href="#work">सेवा एवं संगठन</a></li>
+    <li><a href="#sankalp">संकल्प</a></li>
+    <li><a href="#gallery">गैलरी</a></li>
+    <li><a href="#social">सोशल मीडिया</a></li>
+    <li><a href="#vision">लक्ष्य</a></li>
+    <li><a href="#contact">संपर्क</a></li>
+  </ul>
+</nav>
+
+<!-- ============ HERO: the original main page, unchanged in look ============ -->
+<section id="hero">
+<canvas id="scene" aria-hidden="true"></canvas>
+<div class="vignette"></div>
+<div class="loader" id="loader"><div></div></div>
+
+<div class="ui">
+  <header class="top">
+    <div class="brand"><img src="img/bjp-lotus.webp" alt="भाजपा कमल"><span>भारतीय जनता पार्टी</span></div>
+    <div class="jsr">॥ जय श्री राम ॥</div>
+    <div class="pill">लुधियाना दक्षिण</div>
+  </header>
+
+  <div class="copy">
+    <p class="eyebrow">आप सभी को सादर नमस्कार 🙏</p>
+    <h1>विभोर<br> गर्ग</h1>
+    <div class="seat"><i></i><b>सीनियर भाजपा नेता · लुधियाना दक्षिण</b></div>
+    <div class="role"><span>आधिकारिक प्रवक्ता, भाजपा</span></div>
+    <p class="soon">सेवा ही संगठन, <em>संगठन ही शक्ति</em></p>
+    <p class="sub">समर्पित · सेवा · संगठन · राष्ट्र — लुधियाना दक्षिण की जनता के साथ, हर कदम पर।</p>
+    <div class="cta">
+      <a class="p" href="#journey">राजनीतिक सफर <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a class="s" href="#gallery">गैलरी</a>
+      <a class="s" href="#social">सोशल मीडिया</a>
+    </div>
+    <p class="clabel">संपर्क करें</p>
+    <div class="social contact">
+      <a href="tel:+917973876753"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg> 79738 76753</a>
+      <a href="https://wa.me/917973876753" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3c-.2.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 5 4.3 1.8.8 2.5.8 3.4.7.6-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg> व्हाट्सऐप</a>
+      <a href="mailto:info@vibhorgarg.in"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12c0 1.1.9 2 2 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg> info@vibhorgarg.in</a>
+    </div>
+    <div class="social">
+      <a href="https://www.instagram.com/vibhor_garg_bjp/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1a6.7 6.7 0 100 13.4 6.7 6.7 0 000-13.4zm0 11a4.3 4.3 0 110-8.6 4.3 4.3 0 010 8.6zm7-11.3a1.6 1.6 0 11-3.1 0 1.6 1.6 0 013.1 0z"/></svg> @vibhor_garg_bjp</a>
+    </div>
+  </div>
+
+  <div class="hfoot"><span>© 2026 विभोर गर्ग</span><span>डिज़ाइन: Humgence</span></div>
+</div>
+<div class="scrollcue">स्क्रॉल करें<i></i></div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="s" id="about">
+  <div class="wrap">
+    <p class="kicker">परिचय</p>
+    <h2>व्यक्तिगत विवरण</h2>
+    <span class="bar"></span>
+    <div class="about">
+      <div class="portrait reveal">
+        <img src="img/vibhor.webp" alt="विभोर गर्ग" loading="lazy">
+        <div class="tag"><b>विभोर गर्ग</b>सीनियर भाजपा नेता · लुधियाना दक्षिण</div>
+      </div>
+      <div>
+        <ul class="facts reveal">
+          <li><span>नाम</span><span>विभोर गर्ग</span></li>
+          <li><span>परिचय</span><span>सीनियर भाजपा नेता, विधानसभा लुधियाना दक्षिण</span></li>
+          <li><span>पिता का नाम</span><span>श्री दिनेश गर्ग</span></li>
+          <li><span>जन्म तिथि</span><span>01/03/1981</span></li>
+          <li><span>निवास</span><span>लुधियाना, पंजाब</span></li>
+        </ul>
+        <div class="family reveal">
+          <h4>परिवार</h4>
+          <p>पत्नी — वंशीका गर्ग (व्यवसायी) · माता — गृहिणी। तीन भाई : अंकुर गर्ग (वेडिंग प्लानर), अंकुश गर्ग (लोहे का व्यापार), अंशुल गर्ग (NRI)।</p>
+        </div>
+        <div class="stats reveal">
+          <div class="stat"><b>2020</b><span>से भाजपा में सक्रिय</span></div>
+          <div class="stat"><b>7</b><span>चुनाव / उपचुनाव अभियानों में भूमिका</span></div>
+          <div class="stat"><b>2.56 लाख+</b><span>लोगों तक सोशल मीडिया प्रतियोगिता से पहुँच</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ POLITICAL JOURNEY (starts 2020) ============ -->
+<section class="s" id="journey">
+  <div class="wrap">
+    <p class="kicker">भाजपा के साथ</p>
+    <h2>राजनीतिक सफर</h2>
+    <p class="lead">2020 में भारतीय जनता पार्टी से जुड़ने के बाद से संगठन और जनसेवा का सफर।</p>
+    <span class="bar"></span>
+    <div class="timeline"><div class="tl reveal"><div class="yr">2020</div><div class="tlc"><ul><li>भारतीय जनता पार्टी (भाजपा) में शामिल हुए।</li></ul></div></div><div class="tl reveal"><div class="yr">2022</div><div class="tlc"><ul><li>आत्म नगर, दक्षिण लुधियाना के विधानसभा चुनाव में कार्यकारी सदस्य के रूप में अपनी सेवा निभाई और डुगरी मंडल के प्रभारी भी रहे।</li></ul></div></div><div class="tl reveal"><div class="yr">2024</div><div class="tlc"><ul><li><b>लोकसभा चुनाव :</b> सांसद उम्मीदवार रवनीत सिंह बिट्टू के साथ अपनी सेवा निभाई।</li><li><b>लुधियाना पश्चिम उपचुनाव :</b> पब्लिसिटी डिपार्टमेंट के ऑफिस इंचार्ज के रूप में चुनाव ड्यूटी की।</li><li><b>गिद्दड़बाहा विधानसभा उपचुनाव :</b> श्री मनप्रीत सिंह बादल जी के साथ सह-प्रभारी के रूप में कार्य करते हुए संगठन को मजबूत करने, जनसंपर्क अभियान चलाने एवं कार्यकर्ताओं के साथ मिलकर चुनावी जिम्मेदारियों का निष्ठापूर्वक निर्वहन किया।</li></ul></div></div><div class="tl reveal"><div class="yr">2025</div><div class="tlc"><ul><li><b>तरनतारन उपचुनाव :</b> समर्पित कार्यकर्ता के रूप में पार्टी की निष्ठापूर्वक सेवा की।</li><li><b>दिल्ली विधानसभा चुनाव :</b> सक्रिय कार्यकर्ता के रूप में जनसेवा एवं संगठन को मजबूत बनाने में अपना योगदान दिया।</li></ul></div></div><div class="tl reveal"><div class="yr">2026</div><div class="tlc"><ul><li><b>मोहाली नगर निगम चुनाव :</b> सह-प्रभारी के रूप में संगठन एवं जनसेवा के लिए सक्रिय भूमिका निभाई।</li></ul></div></div></div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="s" id="work">
+  <div class="wrap">
+    <p class="kicker">समाज के बीच</p>
+    <h2>सेवा एवं संगठन</h2>
+    <p class="lead">धार्मिक-सामाजिक आयोजनों से लेकर रक्तदान और मेडिकल कैंप तक — सेवा का दायरा।</p>
+    <span class="bar"></span>
+    <div class="two">
+      <div class="box reveal">
+        <h3>वर्तमान संगठनात्मक गतिविधियाँ</h3>
+        <ul><li><span class="role">चेयरमैन</span><span>बसंत एवेन्यू डुगरी रामलीला और दशहरा कमेटी (R.g.)</span></li><li><span class="role">चेयरमैन</span><span>श्री राम महोत्सव कमेटी, डुगरी (R.g.)</span></li><li><span class="role">संरक्षक</span><span>नीलकंठ सेवा समिति, लुधियाना, पंजाब (R.g.)</span></li></ul>
+        <h3 style="margin-top:22px;font-size:22px">प्रमुख आयोजन</h3>
+        <ul><li>माँ चिंतपूर्णी भंडारे का आयोजन</li><li>श्री अमरनाथ यात्रा के भंडारे का आयोजन</li><li>बसंत एवेन्यू, लुधियाना में रामलीला और दशहरा का आयोजन</li><li>डुगरी, लुधियाना में राम नवमी शोभा यात्रा का आयोजन</li></ul>
+        <div class="award">नीलकंठ सेवा कमेटी की वेबसाइट पर प्रश्न-उत्तर प्रतियोगिता चलाकर <b>2.56 लाख से अधिक लोगों</b> को सोशल मीडिया के द्वारा जोड़ा गया, और इसके लिए संगठन को <b>P.M.O. की ओर से Award</b> मिला।</div>
+      </div>
+      <div class="box reveal">
+        <h3>RSS गतिविधियाँ</h3>
+        <ul><li>शाखा में स्वयंसेवक के तौर पर कार्य</li><li>धर्म जागरण मंच में कार्य</li><li>स्वदेशी जागरण मंच में कार्य (वर्तमान में सक्रिय)</li><li>जिला संयोजक, विश्वकर्मा जिला</li></ul>
+        <h3 style="margin-top:22px;font-size:22px">विचारधारा</h3>
+        <ul><li>भा.ज.पा. की विचारधारा <b style="color:var(--saffron-2)">‘अंत्योदय, अनुशासन और राष्ट्रवाद’</b> मेरे मार्गदर्शक सिद्धांत हैं।</li></ul>
+      </div>
+    </div>
+    <h3 class="sub-h">क्षेत्र में किए गए मुख्य सामाजिक कार्य</h3>
+    <div class="svc">
+      <ul class="svlist"><li class="reveal">क्षेत्र में मुफ़्त आधार कार्ड शिविर लगाए गए</li><li class="reveal">क्षेत्र में हनुमान चालीसा पाठ करवाए गए</li><li class="reveal">क्षेत्र में सफ़ाई अभियान चलाया गया</li><li class="reveal">अमरनाथ यात्रा के लिए मुफ़्त बस सुविधा</li><li class="reveal">सावन महीने में कांवड़ यात्रा के दौरान कांवड़ियों के लिए शिविर का आयोजन किया गया</li><li class="reveal">दक्षिण विधानसभा, सुआ रोड पर रोज़ाना हज़ारों लोगों के वोटर कार्ड, आयुष्मान कार्ड एवं आधार कार्ड का निःशुल्क कार्य किया जा रहा है</li></ul>
+      <figure class="svfig reveal"><img loading="lazy" src="img/seva-collage.jpg" alt="क्षेत्र में आधार कार्ड शिविर, अमरनाथ यात्रा के लिए बस सुविधा और सेवा कार्यों की झलकियाँ"><figcaption>शिविर, यात्रा सुविधा और सेवा कार्यों की झलकियाँ</figcaption></figure>
+    </div>
+    <h3 class="sub-h">रुचि और कार्य</h3>
+    <div class="cards"><div class="card reveal"><h4>हमेशा लोगों की मदद के लिए तैयार</h4><p>ज़रूरतमंद की पुकार पर सबसे पहले पहुँचना ही सेवा का पहला कदम है।</p></div><div class="card reveal"><h4>देश की सेवा और सामाजिक कार्य</h4><p>देश की सेवा और सामाजिक कार्यों के लिए हर समय तत्पर।</p></div><div class="card reveal"><h4>रक्तदान शिविर</h4><p>हर साल Blood Donate Camp का आयोजन किया जाता है एवं ज़रूरतमंदों को Donor उपलब्ध कराने में सहयोग किया जाता है।</p></div><div class="card reveal"><h4>मेडिकल कैंप</h4><p>ज़रूरतमंद मरीज़ों के लिए Medical Camp लगाए जाते हैं।</p></div></div>
+  </div>
+</section>
+
+<!-- ============ SANKALP ============ -->
+<section class="s" id="sankalp">
+  <div class="wrap">
+    <p class="kicker">बदलाव का संकल्प</p>
+    <h2>लुधियाना दक्षिण के लिए संकल्प</h2>
+    <p class="lead">पंजाब में भाजपा की सरकार बनने पर लुधियाना दक्षिण विधानसभा में करने वाले मुख्य कार्य।</p>
+    <span class="bar"></span>
+    <div class="goals"><div class="goal reveal"><span class="gn">01</span><p>तीन महीने के अंदर साफ़ व स्वच्छ पानी की सुविधा सुनिश्चित की जाएगी।</p></div><div class="goal reveal"><span class="gn">02</span><p>विधानसभा की प्रत्येक एंट्री पर नशाखोरों की रोकथाम के लिए पुलिस पार्टी बढ़ाई जाएगी।</p></div><div class="goal reveal"><span class="gn">03</span><p>तीन महीने में सभी सड़कों का काम करवाया जाएगा।</p></div><div class="goal reveal"><span class="gn">04</span><p>क्षेत्र से लुटेरों / बदमाशों को सलाखों के पीछे किया जाएगा।</p></div><div class="goal reveal"><span class="gn">05</span><p>छोटे प्लॉट की रजिस्ट्री करवाने में हो रही चोर-बाज़ारी को ख़त्म किया जाएगा।</p></div><div class="goal reveal"><span class="gn">06</span><p>क्षेत्र में इंडस्ट्री मालिकों के लिए विशेष कमेटी बनाई जाएगी, जो उनकी सभी समस्याओं का समाधान करेगी।</p></div><div class="goal reveal"><span class="gn">07</span><p>यू.पी. व बिहार से आकर पंजाब में बसे हमारे भाई-बहनों की सुरक्षा के लिए सभी प्रमुख चौकों पर पुलिस पार्टी तैनात की जाएगी।</p></div></div>
+    <div class="slogan reveal">
+      <b>बहाने नहीं, बदलाव चाहिए</b>
+      <span>पंजाब में भाजपा सरकार चाहिए</span>
+      <em>देश में किया विकास – अब पंजाब की बारी है</em>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="s" id="gallery">
+  <div class="wrap">
+    <p class="kicker">यादगार क्षण</p>
+    <h2>फ़ोटो गैलरी</h2>
+    <p class="lead">संगठन, जनसंपर्क और कार्यक्रमों की कुछ झलकियाँ। बड़ा देखने के लिए फ़ोटो पर टैप करें।</p>
+    <span class="bar"></span>
+    <div class="masonry"><figure class="gi reveal" data-i="0"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g19.jpg" alt="जालंधर में ‘समरसता संकल्प यात्रा’ का शुभारंभ — भाजपा के राष्ट्रीय अध्यक्ष श्री नितिन नबीन ने यात्रा शुरू की। श्री विभोर गर्ग और श्री शिवराम गुप्ता ने राष्ट्रीय अध्यक्ष का स्वागत किया।"></button><figcaption>जालंधर में ‘समरसता संकल्प यात्रा’ का शुभारंभ — भाजपा के राष्ट्रीय अध्यक्ष श्री नितिन नबीन ने यात्रा शुरू की। श्री विभोर गर्ग और श्री शिवराम गुप्ता ने राष्ट्रीय अध्यक्ष का स्वागत किया।</figcaption></figure><figure class="gi reveal" data-i="1"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g03.jpg" alt="हरियाणा के माननीय मुख्यमंत्री के साथ सम्मान समारोह की कुछ विशेष झलकियाँ।"></button><figcaption>हरियाणा के माननीय मुख्यमंत्री के साथ सम्मान समारोह की कुछ विशेष झलकियाँ।</figcaption></figure><figure class="gi reveal" data-i="2"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g01.jpg" alt="स्वदेशी शोध संस्थान द्वारा आयोजित स्वरोजगार एवं उद्यमिता प्रोत्साहन कार्यशाला में सहभागिता की। कार्यशाला से आत्मनिर्भरता, नवाचार एवं उद्यमिता के क्षेत्र में नई प्रेरणा एवं महत्वपूर्ण मार्गदर्शन प्राप्त हुआ।"></button><figcaption>स्वदेशी शोध संस्थान द्वारा आयोजित स्वरोजगार एवं उद्यमिता प्रोत्साहन कार्यशाला में सहभागिता की। कार्यशाला से आत्मनिर्भरता, नवाचार एवं उद्यमिता के क्षेत्र में नई प्रेरणा एवं महत्वपूर्ण मार्गदर्शन प्राप्त हुआ।</figcaption></figure><figure class="gi reveal" data-i="3"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g05.jpg" alt="स्वदेशी जागरण मेले के दौरान माननीय राज्यपाल महोदय के साथ बिताए गए कुछ यादगार क्षण।"></button><figcaption>स्वदेशी जागरण मेले के दौरान माननीय राज्यपाल महोदय के साथ बिताए गए कुछ यादगार क्षण।</figcaption></figure><figure class="gi reveal" data-i="4"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g09.jpg" alt="चुनाव के दौरान श्री मनप्रीत सिंह बादल एवं श्री अश्विनी शर्मा जी के साथ कार्य करते हुए कुछ यादगार क्षण।"></button><figcaption>चुनाव के दौरान श्री मनप्रीत सिंह बादल एवं श्री अश्विनी शर्मा जी के साथ कार्य करते हुए कुछ यादगार क्षण।</figcaption></figure><figure class="gi reveal" data-i="5"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g06.jpg" alt="विधानसभा उपचुनाव के दौरान अपने साथी श्री जीवन गुप्ता जी एवं समर्पित कार्यकर्ताओं के साथ मिलकर संगठन के लिए कार्य करते हुए बिताए गए कुछ यादगार पल।"></button><figcaption>विधानसभा उपचुनाव के दौरान अपने साथी श्री जीवन गुप्ता जी एवं समर्पित कार्यकर्ताओं के साथ मिलकर संगठन के लिए कार्य करते हुए बिताए गए कुछ यादगार पल।</figcaption></figure><figure class="gi reveal" data-i="6"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g04.jpg" alt="लुधियाना भाजपा परिवार के साथ संगठन एवं जनसेवा के कुछ यादगार क्षण।"></button><figcaption>लुधियाना भाजपा परिवार के साथ संगठन एवं जनसेवा के कुछ यादगार क्षण।</figcaption></figure><figure class="gi reveal" data-i="7"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g10.jpg" alt="चुनाव के दौरान श्री मनप्रीत सिंह बादल एवं श्री अश्विनी शर्मा जी के साथ कार्य करते हुए कुछ यादगार क्षण।"></button><figcaption>चुनाव के दौरान श्री मनप्रीत सिंह बादल एवं श्री अश्विनी शर्मा जी के साथ कार्य करते हुए कुछ यादगार क्षण।</figcaption></figure><figure class="gi reveal" data-i="8"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g08.jpg" alt="पंजाब सरकार के विरुद्ध आयोजित विरोध-प्रदर्शन के दौरान कार्यकर्ताओं के साथ एकजुटता व्यक्त करते हुए।"></button><figcaption>पंजाब सरकार के विरुद्ध आयोजित विरोध-प्रदर्शन के दौरान कार्यकर्ताओं के साथ एकजुटता व्यक्त करते हुए।</figcaption></figure><figure class="gi reveal" data-i="9"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g11.jpg" alt="श्री जय इंदर जी के साथ संगठनात्मक कार्यों एवं विभिन्न विषयों पर चर्चा करते हुए।"></button><figcaption>श्री जय इंदर जी के साथ संगठनात्मक कार्यों एवं विभिन्न विषयों पर चर्चा करते हुए।</figcaption></figure><figure class="gi reveal" data-i="10"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g13.jpg" alt="पार्टी की गतिविधियों एवं जनहित के मुद्दों पर मीडिया से चर्चा करते हुए।"></button><figcaption>पार्टी की गतिविधियों एवं जनहित के मुद्दों पर मीडिया से चर्चा करते हुए।</figcaption></figure><figure class="gi reveal" data-i="11"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g14.jpg" alt="धार्मिक यात्रा को हर्षोल्लास एवं श्रद्धा के साथ रवाना करते हुए।"></button><figcaption>धार्मिक यात्रा को हर्षोल्लास एवं श्रद्धा के साथ रवाना करते हुए।</figcaption></figure><figure class="gi reveal" data-i="12"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g15.jpg" alt="विधानसभा में भाजपा कार्यकर्ताओं के साथ संगठनात्मक बैठक एवं विचार-विमर्श के कुछ यादगार क्षण।"></button><figcaption>विधानसभा में भाजपा कार्यकर्ताओं के साथ संगठनात्मक बैठक एवं विचार-विमर्श के कुछ यादगार क्षण।</figcaption></figure><figure class="gi reveal" data-i="13"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g16.jpg" alt="जनता के बीच जाकर उनके विश्वास और सहयोग को मजबूत करते हुए।"></button><figcaption>जनता के बीच जाकर उनके विश्वास और सहयोग को मजबूत करते हुए।</figcaption></figure><figure class="gi reveal" data-i="14"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g17.jpg" alt="वार्ड संख्या 72 में भाजपा पार्षद श्री रुचि गुलाटी जी एवं श्री रवनीत सिंह बिट्टू जी के साथ जनसंपर्क अभियान एवं जनसेवा के कार्यों में सक्रिय सहभागिता निभाई।"></button><figcaption>वार्ड संख्या 72 में भाजपा पार्षद श्री रुचि गुलाटी जी एवं श्री रवनीत सिंह बिट्टू जी के साथ जनसंपर्क अभियान एवं जनसेवा के कार्यों में सक्रिय सहभागिता निभाई।</figcaption></figure><figure class="gi reveal" data-i="15"><button type="button" aria-label="फ़ोटो बड़ी करें"><img loading="lazy" src="img/g02.jpg" alt="स्वरोजगार एवं उद्यमिता प्रोत्साहन कार्यशाला की झलकियाँ।"></button><figcaption>स्वरोजगार एवं उद्यमिता प्रोत्साहन कार्यशाला की झलकियाँ।</figcaption></figure></div>
+    <h3 class="sub-h">समाचार पत्रों में</h3>
+    <div class="press"><figure class="pi reveal" data-p="0"><button type="button" aria-label="कतरन बड़ी करें"><img loading="lazy" src="img/g18.jpg" alt="नशा मुक्त पंजाब के संकल्प को लेकर मेरी आवाज़ समाचार पत्रों के माध्यम से जनता तक पहुँची। समाज को नशे के खिलाफ एकजुट होकर जागरूक करने का हमारा प्रयास निरंतर जारी है।"></button><figcaption><b>पंजाब केसरी, लुधियाना · 22 सितम्बर 2024</b>नशा मुक्त पंजाब के संकल्प को लेकर मेरी आवाज़ समाचार पत्रों के माध्यम से जनता तक पहुँची। समाज को नशे के खिलाफ एकजुट होकर जागरूक करने का हमारा प्रयास निरंतर जारी है।</figcaption></figure><figure class="pi reveal" data-p="1"><button type="button" aria-label="कतरन बड़ी करें"><img loading="lazy" src="img/g07.jpg" alt="दिल्ली विधानसभा चुनाव अभियान के दौरान के कुछ अविस्मरणीय क्षण।"></button><figcaption><b>पंजाब केसरी, लुधियाना · 31 जनवरी 2025</b>दिल्ली विधानसभा चुनाव अभियान के दौरान के कुछ अविस्मरणीय क्षण।</figcaption></figure><figure class="pi reveal" data-p="2"><button type="button" aria-label="कतरन बड़ी करें"><img loading="lazy" src="img/g12.jpg" alt="स्वदेशी मेले में आत्मनिर्भर भारत और स्वदेशी उत्पादों को समर्पित कुछ विशेष झलकियाँ।"></button><figcaption><b>समाचार पत्र कवरेज</b>स्वदेशी मेले में आत्मनिर्भर भारत और स्वदेशी उत्पादों को समर्पित कुछ विशेष झलकियाँ।</figcaption></figure></div>
+  </div>
+</section>
+
+<!-- ============ SOCIAL ============ -->
+<section class="s" id="social">
+  <div class="wrap">
+    <p class="kicker">जुड़े रहें</p>
+    <h2>सोशल मीडिया</h2>
+    <p class="lead">इंस्टाग्राम, फ़ेसबुक, यूट्यूब, X और व्हाट्सऐप चैनल पर हमारे पेज — वीडियो और ताज़ा अपडेट।</p>
+    <span class="bar"></span>
+    <div class="platforms">
+      <div class="plat reveal">
+        <div class="ph"><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.1a6.7 6.7 0 100 13.4 6.7 6.7 0 000-13.4zm0 11a4.3 4.3 0 110-8.6 4.3 4.3 0 010 8.6zm7-11.3a1.6 1.6 0 11-3.1 0 1.6 1.6 0 013.1 0z"/></svg></span><h4>Instagram</h4></div>
+        <div class="pg"><div><div class="pgn">Vibhor Garg BJP</div><div class="hnd">@vibhor_garg_bjp</div></div><div class="chips"><a class="chip" href="https://www.instagram.com/vibhor_garg_bjp/" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div><div class="pg"><div><div class="pgn">Mera Ludhiana South</div><div class="hnd">@meraludhianasouth</div></div><div class="chips"><a class="chip" href="https://www.instagram.com/meraludhianasouth/" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div><div class="pg"><div><div class="pgn">Yuva Vibhor</div><div class="hnd">@yuvavibhor</div></div><div class="chips"><a class="chip" href="https://www.instagram.com/yuvavibhor/" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div><div class="pg"><div><div class="pgn">Team Vibhor Garg</div><div class="hnd">@teamvibhorgarg</div></div><div class="chips"><a class="chip" href="https://www.instagram.com/teamvibhorgarg/" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div>
+      </div>
+      <div class="plat reveal">
+        <div class="ph"><span class="ico"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.5h2.5l.5-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.5v3H10V21h3.5z"/></svg></span><h4>Facebook</h4></div>
+        <div class="pg"><div><div class="pgn">Vibhor Garg BJP</div><div class="hnd">Facebook पेज</div></div><div class="chips"><a class="chip" href="https://www.facebook.com/profile.php?id=100063943753976" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div><div class="pg"><div><div class="pgn">Mera Ludhiana South</div><div class="hnd">Facebook पेज</div></div><div class="chips"><a class="chip" href="https://www.facebook.com/profile.php?id=61596152854091" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div><div class="pg"><div><div class="pgn">Yuva Vibhor</div><div class="hnd">Facebook पेज</div></div><div class="chips"><a class="chip" href="https://www.facebook.com/profile.php?id=61595899515541" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div><div class="pg"><div><div class="pgn">Team Vibhor Garg</div><div class="hnd">Facebook पेज</div></div><div class="chips"><a class="chip" href="https://www.facebook.com/profile.php?id=61596210361417" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div>
+      </div>
+      <div class="plat reveal">
+        <div class="ph"><span class="ico"><svg viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 00-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 002.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 001.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 001.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></span><h4>YouTube</h4></div>
+        <div class="pg"><div><div class="pgn">South Ludhiana BJP</div><div class="hnd">@SouthLudhianaBJP</div></div><div class="chips"><a class="chip" href="https://www.youtube.com/@SouthLudhianaBJP" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div>
+      </div>
+      <div class="plat reveal">
+        <div class="ph"><span class="ico"><svg viewBox="0 0 24 24"><path d="M17.8 3h3L14.2 10.5 22 21h-6.1l-4.8-6.3L5.6 21h-3l7.1-8.1L2 3h6.2l4.3 5.8L17.8 3zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5z"/></svg></span><h4>X (Twitter)</h4></div>
+        <div class="pg"><div><div class="pgn">Vibhor Garg</div><div class="hnd">@VibhorG83453915</div></div><div class="chips"><a class="chip" href="https://x.com/VibhorG83453915" target="_blank" rel="noopener">खोलें <svg viewBox="0 0 24 24"><path d="M5 12h12m-5-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></div>
+      </div>
+      <div class="plat full reveal">
+        <div class="ph"><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3c-.2.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 5 4.3 1.8.8 2.5.8 3.4.7.6-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg></span><h4>WhatsApp Channel</h4><a class="pbtn wa" href="https://whatsapp.com/channel/0029Vb9F6UlIXnll2Byr9f0z" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3c-.2.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 5 4.3 1.8.8 2.5.8 3.4.7.6-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg>चैनल से जुड़ें</a></div>
+        <p style="color:var(--muted);font-size:15.5px">ताज़ा जानकारी, कार्यक्रम और संदेश सीधे अपने फ़ोन पर पाने के लिए हमारे व्हाट्सऐप चैनल से जुड़ें।</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISION ============ -->
+<section class="s" id="vision">
+  <div class="wrap">
+    <p class="kicker">आगे की राह</p>
+    <h2>भविष्य के लक्ष्य</h2>
+    <span class="bar"></span>
+    <div class="goals"><div class="goal reveal"><span class="gn">01</span><p><b>नशा-मुक्त पंजाब, नशा-मुक्त लुधियाना दक्षिण</b><span>नशा तस्करों पर सख़्त कार्रवाई, नशा-मुक्ति व काउंसलिंग सहायता, और हर वार्ड में युवा जागरूकता अभियान।</span></p></div><div class="goal reveal"><span class="gn">02</span><p><b>हर बच्चे के लिए शिक्षा</b><span>बेहतर सरकारी स्कूल, युवाओं के लिए मुफ़्त कोचिंग और स्किल सेंटर, तथा ज़रूरतमंद परिवारों के विद्यार्थियों के लिए छात्रवृत्ति सहायता।</span></p></div><div class="goal reveal"><span class="gn">03</span><p><b>व्यापार और रोज़गार</b><span>छोटे व्यापारियों और उद्योगों को सहयोग, आसान अनुमतियाँ, तथा स्किल ट्रेनिंग और प्लेसमेंट मेलों से स्थानीय रोज़गार।</span></p></div><div class="goal reveal"><span class="gn">04</span><p><b>सीवरेज और ड्रेनेज</b><span>बंद पड़ी सीवर लाइनों को बदलना और बरसाती पानी की निकासी के लिए ड्रेन बिछाना, ताकि कॉलोनियाँ सूखी और ओवरफ्लो-मुक्त रहें।</span></p></div><div class="goal reveal"><span class="gn">05</span><p><b>स्वच्छ गलियाँ, आवारा पशु-मुक्त</b><span>घर-घर कूड़ा संग्रह, ढके हुए डंप, और आवारा पशुओं व कुत्तों पर नियंत्रण।</span></p></div><div class="goal reveal"><span class="gn">06</span><p><b>सुगम ट्रैफ़िक और पार्किंग</b><span>जाम वाले चौकों पर सिग्नल और सुरक्षित डिज़ाइन, तथा बाज़ारों के पास पार्किंग।</span></p></div><div class="goal reveal"><span class="gn">07</span><p><b>सुरक्षित, रोशन, हरे-भरे मोहल्ले</b><span>LED स्ट्रीट लाइटें, प्रमुख चौराहों पर CCTV, और सुव्यवस्थित पार्क व खेल मैदान।</span></p></div><div class="goal reveal"><span class="gn">08</span><p><b>घर के पास स्वास्थ्य सेवा</b><span>उन्नत डिस्पेंसरियाँ, नियमित मुफ़्त स्वास्थ्य शिविर, और हर पात्र परिवार के लिए आयुष्मान कार्ड।</span></p></div><div class="goal reveal"><span class="gn">09</span><p><b>स्वच्छ हवा और बुड्ढा नाला</b><span>उद्योगों से गंदे पानी के शोधन और धुआँ घटाने के लिए प्रयास, नालों व सड़कों के किनारे पौधारोपण।</span></p></div><div class="goal reveal"><span class="gn">10</span><p><b>वन-विंडो हेल्प डेस्क</b><span>आधार, राशन, पेंशन, वोटर और आयुष्मान कार्ड तथा शिकायत-निवारण के लिए जन सेवा केंद्र।</span></p></div></div>
+    <div class="msg reveal">
+      <h3>सेवा, संगठन, संस्कार और समर्पण</h3>
+      <p>मेरा मानना है कि राजनीति केवल सत्ता का माध्यम नहीं, बल्कि समाज और राष्ट्र सेवा का सबसे बड़ा मंच है। भा.ज.पा. की विचारधारा ‘अंत्योदय, अनुशासन और राष्ट्रवाद’ मेरे मार्गदर्शक सिद्धांत हैं। मैं पूरी निष्ठा, ईमानदारी और समर्पण के साथ संगठन तथा समाज की सेवा के लिए प्रतिबद्ध हूँ।</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="s" id="contact">
+  <div class="wrap">
+    <p class="kicker">हमसे मिलें</p>
+    <h2>संपर्क करें</h2>
+    <span class="bar"></span>
+    <div class="cgrid">
+      <div class="ci">
+        <div class="crow reveal"><span class="ico"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg></span><div><small>फ़ोन</small><b>79738 76753</b></div>
+          <div class="go"><a class="chip" href="tel:+917973876753">कॉल करें</a><a class="chip" href="https://wa.me/+917973876753" target="_blank" rel="noopener">व्हाट्सऐप</a><button type="button" data-copy="79738 76753">कॉपी</button></div></div>
+        <div class="crow reveal"><span class="ico"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12c0 1.1.9 2 2 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></span><div><small>ईमेल</small><b>info@vibhorgarg.in</b></div>
+          <div class="go"><a class="chip" href="mailto:info@vibhorgarg.in">ईमेल भेजें</a><button type="button" data-copy="info@vibhorgarg.in">कॉपी</button></div></div>
+      </div>
+      <div class="addr reveal">
+        <h3>कार्यालय</h3>
+        <span class="on">मई 2026 से संचालित</span>
+        <p>Sua Road, Near Axis Bank, Giaspura,<br>Ludhiana, Punjab, India</p>
+        <p style="color:var(--muted);font-size:15.5px">कार्यालय का कार्य नियमित रूप से जारी है।</p>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Sua+Road+Near+Axis+Bank+Giaspura+Ludhiana+Punjab" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 119.5 9 2.5 2.5 0 0112 11.5z"/></svg> Google Maps पर देखें</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="f">
+  <img src="img/bjp-lotus.webp" alt="भाजपा कमल">
+  <div class="jsr2">॥ जय श्री राम ॥</div>
+  <div>© 2026 विभोर गर्ग · लुधियाना दक्षिण · डिज़ाइन: Humgence</div>
+</footer>
+
+<div id="lang" role="group" aria-label="भाषा / Language / ਭਾਸ਼ਾ">
+  <button type="button" data-l="hi" class="on" aria-pressed="true">हिं</button>
+  <button type="button" data-l="en" aria-pressed="false">EN</button>
+  <button type="button" data-l="pa" aria-pressed="false">ਪੰ</button>
+</div>
+
+<!-- lightbox -->
+<div id="lb" role="dialog" aria-modal="true" aria-label="फ़ोटो">
+  <span class="ct" id="lbc"></span>
+  <button class="x" type="button" aria-label="बंद करें">✕</button>
+  <button class="pv" type="button" aria-label="पिछला">‹</button>
+  <img id="lbi" alt="">
+  <p id="lbt"></p>
+  <button class="nx" type="button" aria-label="अगला">›</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+/* ---------------- page behaviour ---------------- */
+(function(){
+  var doc=document, nav=doc.getElementById('nav'), hero=doc.getElementById('hero');
+  function onScroll(){ nav.classList.toggle('show', window.scrollY > hero.offsetHeight*0.6); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  // reveal on scroll
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}})},{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+    doc.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+    // active nav link
+    var links={}; doc.querySelectorAll('#nav li a').forEach(function(a){links[a.getAttribute('href').slice(1)]=a});
+    var so=new IntersectionObserver(function(es){es.forEach(function(en){var a=links[en.target.id]; if(a&&en.isIntersecting){Object.values(links).forEach(function(x){x.classList.remove('on')});a.classList.add('on');}})},{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(links).forEach(function(id){var s=doc.getElementById(id); if(s) so.observe(s)});
+  } else { doc.documentElement.classList.add('noio'); doc.body.classList.add('noio'); }
+
+  // copy buttons
+  doc.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=b.getAttribute('data-copy'), old=b.firstChild.nodeValue;
+      function set(v){ b.firstChild.nodeValue=v; }
+      function back(ms){ setTimeout(function(){ set(old); },ms); }
+      try{ navigator.clipboard.writeText(t).then(function(){set(window.__tr('कॉपी हो गया ✓')); back(1500)},function(){set(t); back(3000)}); }
+      catch(e){ set(t); back(3000); }
+    });
+  });
+
+  // lightbox
+  var DATA=[{"src": "img/g19.jpg", "cap": "जालंधर में ‘समरसता संकल्प यात्रा’ का शुभारंभ — भाजपा के राष्ट्रीय अध्यक्ष श्री नितिन नबीन ने यात्रा शुरू की। श्री विभोर गर्ग और श्री शिवराम गुप्ता ने राष्ट्रीय अध्यक्ष का स्वागत किया।"}, {"src": "img/g03.jpg", "cap": "हरियाणा के माननीय मुख्यमंत्री के साथ सम्मान समारोह की कुछ विशेष झलकियाँ।"}, {"src": "img/g01.jpg", "cap": "स्वदेशी शोध संस्थान द्वारा आयोजित स्वरोजगार एवं उद्यमिता प्रोत्साहन कार्यशाला में सहभागिता की। कार्यशाला से आत्मनिर्भरता, नवाचार एवं उद्यमिता के क्षेत्र में नई प्रेरणा एवं महत्वपूर्ण मार्गदर्शन प्राप्त हुआ।"}, {"src": "img/g05.jpg", "cap": "स्वदेशी जागरण मेले के दौरान माननीय राज्यपाल महोदय के साथ बिताए गए कुछ यादगार क्षण।"}, {"src": "img/g09.jpg", "cap": "चुनाव के दौरान श्री मनप्रीत सिंह बादल एवं श्री अश्विनी शर्मा जी के साथ कार्य करते हुए कुछ यादगार क्षण।"}, {"src": "img/g06.jpg", "cap": "विधानसभा उपचुनाव के दौरान अपने साथी श्री जीवन गुप्ता जी एवं समर्पित कार्यकर्ताओं के साथ मिलकर संगठन के लिए कार्य करते हुए बिताए गए कुछ यादगार पल।"}, {"src": "img/g04.jpg", "cap": "लुधियाना भाजपा परिवार के साथ संगठन एवं जनसेवा के कुछ यादगार क्षण।"}, {"src": "img/g10.jpg", "cap": "चुनाव के दौरान श्री मनप्रीत सिंह बादल एवं श्री अश्विनी शर्मा जी के साथ कार्य करते हुए कुछ यादगार क्षण।"}, {"src": "img/g08.jpg", "cap": "पंजाब सरकार के विरुद्ध आयोजित विरोध-प्रदर्शन के दौरान कार्यकर्ताओं के साथ एकजुटता व्यक्त करते हुए।"}, {"src": "img/g11.jpg", "cap": "श्री जय इंदर जी के साथ संगठनात्मक कार्यों एवं विभिन्न विषयों पर चर्चा करते हुए।"}, {"src": "img/g13.jpg", "cap": "पार्टी की गतिविधियों एवं जनहित के मुद्दों पर मीडिया से चर्चा करते हुए।"}, {"src": "img/g14.jpg", "cap": "धार्मिक यात्रा को हर्षोल्लास एवं श्रद्धा के साथ रवाना करते हुए।"}, {"src": "img/g15.jpg", "cap": "विधानसभा में भाजपा कार्यकर्ताओं के साथ संगठनात्मक बैठक एवं विचार-विमर्श के कुछ यादगार क्षण।"}, {"src": "img/g16.jpg", "cap": "जनता के बीच जाकर उनके विश्वास और सहयोग को मजबूत करते हुए।"}, {"src": "img/g17.jpg", "cap": "वार्ड संख्या 72 में भाजपा पार्षद श्री रुचि गुलाटी जी एवं श्री रवनीत सिंह बिट्टू जी के साथ जनसंपर्क अभियान एवं जनसेवा के कार्यों में सक्रिय सहभागिता निभाई।"}, {"src": "img/g02.jpg", "cap": "स्वरोजगार एवं उद्यमिता प्रोत्साहन कार्यशाला की झलकियाँ।"}, {"src": "img/g18.jpg", "cap": "नशा मुक्त पंजाब के संकल्प को लेकर मेरी आवाज़ समाचार पत्रों के माध्यम से जनता तक पहुँची। समाज को नशे के खिलाफ एकजुट होकर जागरूक करने का हमारा प्रयास निरंतर जारी है।", "pre": "पंजाब केसरी, लुधियाना · 22 सितम्बर 2024"}, {"src": "img/g07.jpg", "cap": "दिल्ली विधानसभा चुनाव अभियान के दौरान के कुछ अविस्मरणीय क्षण।", "pre": "पंजाब केसरी, लुधियाना · 31 जनवरी 2025"}, {"src": "img/g12.jpg", "cap": "स्वदेशी मेले में आत्मनिर्भर भारत और स्वदेशी उत्पादों को समर्पित कुछ विशेष झलकियाँ।", "pre": "समाचार पत्र कवरेज"}];
+  var lb=doc.getElementById('lb'), li=doc.getElementById('lbi'), lt=doc.getElementById('lbt'), lc=doc.getElementById('lbc'), cur=0;
+  function show(i){ cur=(i+DATA.length)%DATA.length; var d=DATA[cur], txt=(d.pre?window.__tr(d.pre)+' — ':'')+window.__tr(d.cap); li.src=d.src; li.alt=txt; lt.textContent=txt; lc.textContent=(cur+1)+' / '+DATA.length; }
+  function openLb(i){ show(i); lb.classList.add('open'); doc.body.style.overflow='hidden'; }
+  function closeLb(){ lb.classList.remove('open'); doc.body.style.overflow=''; }
+  doc.querySelectorAll('.gi').forEach(function(f){ f.querySelector('button').addEventListener('click',function(){openLb(+f.dataset.i)}); });
+  doc.querySelectorAll('.pi').forEach(function(f){ f.querySelector('button').addEventListener('click',function(){openLb(DATA.length-3+ +f.dataset.p)}); });
+  lb.querySelector('.x').addEventListener('click',closeLb);
+  lb.querySelector('.pv').addEventListener('click',function(){show(cur-1)});
+  lb.querySelector('.nx').addEventListener('click',function(){show(cur+1)});
+  lb.addEventListener('click',function(e){ if(e.target===lb) closeLb(); });
+  doc.addEventListener('keydown',function(e){ if(!lb.classList.contains('open'))return; if(e.key==='Escape')closeLb(); if(e.key==='ArrowLeft')show(cur-1); if(e.key==='ArrowRight')show(cur+1); });
+
+  // ---------- language (hi / en / pa) ----------
+  var I18N={"विभोर गर्ग | लुधियाना दक्षिण": ["Vibhor Garg | Ludhiana South", "ਵਿਭੋਰ ਗਰਗ | ਲੁਧਿਆਣਾ ਦੱਖਣੀ"], "विभोर गर्ग, सीनियर भाजपा नेता, लुधियाना दक्षिण — राजनीतिक सफर (2020 से), सामाजिक कार्य, संकल्प, गैलरी, सोशल मीडिया और संपर्क।": ["Vibhor Garg, Senior BJP Leader, Ludhiana South — political journey (since 2020), social work, pledges, gallery, social media and contact.", "ਵਿਭੋਰ ਗਰਗ, ਸੀਨੀਅਰ ਭਾਜਪਾ ਆਗੂ, ਲੁਧਿਆਣਾ ਦੱਖਣੀ — ਸਿਆਸੀ ਸਫ਼ਰ (2020 ਤੋਂ), ਸਮਾਜਿਕ ਕੰਮ, ਸੰਕਲਪ, ਗੈਲਰੀ, ਸੋਸ਼ਲ ਮੀਡੀਆ ਅਤੇ ਸੰਪਰਕ।"], "मुख्य मेनू": ["Main menu", "ਮੁੱਖ ਮੀਨੂ"], "भाजपा कमल": ["BJP lotus", "ਭਾਜਪਾ ਕਮਲ"], "विभोर गर्ग": ["Vibhor Garg", "ਵਿਭੋਰ ਗਰਗ"], "परिचय": ["About", "ਜਾਣ-ਪਛਾਣ"], "राजनीतिक सफर": ["Political Journey", "ਸਿਆਸੀ ਸਫ਼ਰ"], "सेवा एवं संगठन": ["Service & Organisation", "ਸੇਵਾ ਤੇ ਸੰਗਠਨ"], "संकल्प": ["Pledges", "ਸੰਕਲਪ"], "गैलरी": ["Gallery", "ਗੈਲਰੀ"], "सोशल मीडिया": ["Social Media", "ਸੋਸ਼ਲ ਮੀਡੀਆ"], "लक्ष्य": ["Goals", "ਟੀਚੇ"], "संपर्क": ["Contact", "ਸੰਪਰਕ"], "भारतीय जनता पार्टी": ["Bharatiya Janata Party", "ਭਾਰਤੀ ਜਨਤਾ ਪਾਰਟੀ"], "॥ जय श्री राम ॥": ["|| Jai Shri Ram ||", "॥ ਜੈ ਸ਼੍ਰੀ ਰਾਮ ॥"], "लुधियाना दक्षिण": ["Ludhiana South", "ਲੁਧਿਆਣਾ ਦੱਖਣੀ"], "आप सभी को सादर नमस्कार 🙏": ["Warm greetings to all 🙏", "ਆਪ ਸਭ ਨੂੰ ਸਤਿਕਾਰ ਸਹਿਤ ਨਮਸਕਾਰ 🙏"], "विभोर": ["Vibhor", "ਵਿਭੋਰ"], "गर्ग": ["Garg", "ਗਰਗ"], "सीनियर भाजपा नेता · लुधियाना दक्षिण": ["Senior BJP Leader · Ludhiana South", "ਸੀਨੀਅਰ ਭਾਜਪਾ ਆਗੂ · ਲੁਧਿਆਣਾ ਦੱਖਣੀ"], "आधिकारिक प्रवक्ता, भाजपा": ["Official Spokesperson, BJP", "ਅਧਿਕਾਰਤ ਬੁਲਾਰਾ, ਭਾਜਪਾ"], "सेवा ही संगठन,": ["Service is organisation,", "ਸੇਵਾ ਹੀ ਸੰਗਠਨ,"], "संगठन ही शक्ति": ["organisation is strength", "ਸੰਗਠਨ ਹੀ ਸ਼ਕਤੀ"], "समर्पित · सेवा · संगठन · राष्ट्र — लुधियाना दक्षिण की जनता के साथ, हर कदम पर।": ["Dedicated · Service · Organisation · Nation — with the people of Ludhiana South, at every step.", "ਸਮਰਪਿਤ · ਸੇਵਾ · ਸੰਗਠਨ · ਰਾਸ਼ਟਰ — ਲੁਧਿਆਣਾ ਦੱਖਣੀ ਦੇ ਲੋਕਾਂ ਨਾਲ, ਹਰ ਕਦਮ 'ਤੇ।"], "संपर्क करें": ["Get in touch", "ਸੰਪਰਕ ਕਰੋ"], "व्हाट्सऐप": ["WhatsApp", "ਵਟਸਐਪ"], "© 2026 विभोर गर्ग": ["© 2026 Vibhor Garg", "© 2026 ਵਿਭੋਰ ਗਰਗ"], "डिज़ाइन: Humgence": ["Design: Humgence", "ਡਿਜ਼ਾਈਨ: Humgence"], "स्क्रॉल करें": ["Scroll", "ਸਕ੍ਰੋਲ ਕਰੋ"], "व्यक्तिगत विवरण": ["Personal Details", "ਨਿੱਜੀ ਵੇਰਵੇ"], "नाम": ["Name", "ਨਾਮ"], "सीनियर भाजपा नेता, विधानसभा लुधियाना दक्षिण": ["Senior BJP Leader, Ludhiana South Assembly", "ਸੀਨੀਅਰ ਭਾਜਪਾ ਆਗੂ, ਵਿਧਾਨ ਸਭਾ ਲੁਧਿਆਣਾ ਦੱਖਣੀ"], "पिता का नाम": ["Father's name", "ਪਿਤਾ ਦਾ ਨਾਮ"], "श्री दिनेश गर्ग": ["Shri Dinesh Garg", "ਸ਼੍ਰੀ ਦਿਨੇਸ਼ ਗਰਗ"], "जन्म तिथि": ["Date of birth", "ਜਨਮ ਮਿਤੀ"], "निवास": ["Residence", "ਰਿਹਾਇਸ਼"], "लुधियाना, पंजाब": ["Ludhiana, Punjab", "ਲੁਧਿਆਣਾ, ਪੰਜਾਬ"], "परिवार": ["Family", "ਪਰਿਵਾਰ"], "पत्नी — वंशीका गर्ग (व्यवसायी) · माता — गृहिणी। तीन भाई : अंकुर गर्ग (वेडिंग प्लानर), अंकुश गर्ग (लोहे का व्यापार), अंशुल गर्ग (NRI)।": ["Wife — Vanshika Garg (businesswoman) · Mother — homemaker. Three brothers: Ankur Garg (wedding planner), Ankush Garg (iron trade), Anshul Garg (NRI).", "ਪਤਨੀ — ਵੰਸ਼ਿਕਾ ਗਰਗ (ਕਾਰੋਬਾਰੀ) · ਮਾਤਾ — ਘਰੇਲੂ ਸੁਆਣੀ। ਤਿੰਨ ਭਰਾ: ਅੰਕੁਰ ਗਰਗ (ਵੈਡਿੰਗ ਪਲੈਨਰ), ਅੰਕੁਸ਼ ਗਰਗ (ਲੋਹੇ ਦਾ ਵਪਾਰ), ਅੰਸ਼ੁਲ ਗਰਗ (NRI)।"], "से भाजपा में सक्रिय": ["active in the BJP since", "ਤੋਂ ਭਾਜਪਾ ਵਿੱਚ ਸਰਗਰਮ"], "चुनाव / उपचुनाव अभियानों में भूमिका": ["roles in election / by-election campaigns", "ਚੋਣ / ਜ਼ਿਮਨੀ ਚੋਣ ਮੁਹਿੰਮਾਂ ਵਿੱਚ ਭੂਮਿਕਾ"], "2.56 लाख+": ["2.56 lakh+", "2.56 ਲੱਖ+"], "लोगों तक सोशल मीडिया प्रतियोगिता से पहुँच": ["people reached through a social media contest", "ਲੋਕਾਂ ਤੱਕ ਸੋਸ਼ਲ ਮੀਡੀਆ ਮੁਕਾਬਲੇ ਰਾਹੀਂ ਪਹੁੰਚ"], "भाजपा के साथ": ["With the BJP", "ਭਾਜਪਾ ਦੇ ਨਾਲ"], "2020 में भारतीय जनता पार्टी से जुड़ने के बाद से संगठन और जनसेवा का सफर।": ["The journey of organisation and public service since joining the Bharatiya Janata Party in 2020.", "2020 ਵਿੱਚ ਭਾਰਤੀ ਜਨਤਾ ਪਾਰਟੀ ਨਾਲ ਜੁੜਨ ਤੋਂ ਬਾਅਦ ਸੰਗਠਨ ਅਤੇ ਲੋਕ ਸੇਵਾ ਦਾ ਸਫ਼ਰ।"], "भारतीय जनता पार्टी (भाजपा) में शामिल हुए।": ["Joined the Bharatiya Janata Party (BJP).", "ਭਾਰਤੀ ਜਨਤਾ ਪਾਰਟੀ (ਭਾਜਪਾ) ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਏ।"], "आत्म नगर, दक्षिण लुधियाना के विधानसभा चुनाव में कार्यकारी सदस्य के रूप में अपनी सेवा निभाई और डुगरी मंडल के प्रभारी भी रहे।": ["In the assembly election for Atam Nagar, South Ludhiana, served as an executive member and was also in charge of Dugri Mandal.", "ਆਤਮ ਨਗਰ, ਦੱਖਣੀ ਲੁਧਿਆਣਾ ਦੀ ਵਿਧਾਨ ਸਭਾ ਚੋਣ ਵਿੱਚ ਕਾਰਜਕਾਰੀ ਮੈਂਬਰ ਵਜੋਂ ਸੇਵਾ ਨਿਭਾਈ ਅਤੇ ਡੁਗਰੀ ਮੰਡਲ ਦੇ ਇੰਚਾਰਜ ਵੀ ਰਹੇ।"], "लोकसभा चुनाव :": ["Lok Sabha election:", "ਲੋਕ ਸਭਾ ਚੋਣ:"], "सांसद उम्मीदवार रवनीत सिंह बिट्टू के साथ अपनी सेवा निभाई।": ["Served alongside MP candidate Ravneet Singh Bittu.", "ਐਮ.ਪੀ. ਉਮੀਦਵਾਰ ਰਵਨੀਤ ਸਿੰਘ ਬਿੱਟੂ ਦੇ ਨਾਲ ਆਪਣੀ ਸੇਵਾ ਨਿਭਾਈ।"], "लुधियाना पश्चिम उपचुनाव :": ["Ludhiana West by-election:", "ਲੁਧਿਆਣਾ ਪੱਛਮੀ ਜ਼ਿਮਨੀ ਚੋਣ:"], "पब्लिसिटी डिपार्टमेंट के ऑफिस इंचार्ज के रूप में चुनाव ड्यूटी की।": ["Performed election duty as Office In-charge of the Publicity Department.", "ਪਬਲਿਸਿਟੀ ਵਿਭਾਗ ਦੇ ਆਫ਼ਿਸ ਇੰਚਾਰਜ ਵਜੋਂ ਚੋਣ ਡਿਊਟੀ ਨਿਭਾਈ।"], "गिद्दड़बाहा विधानसभा उपचुनाव :": ["Gidderbaha assembly by-election:", "ਗਿੱਦੜਬਾਹਾ ਵਿਧਾਨ ਸਭਾ ਜ਼ਿਮਨੀ ਚੋਣ:"], "श्री मनप्रीत सिंह बादल जी के साथ सह-प्रभारी के रूप में कार्य करते हुए संगठन को मजबूत करने, जनसंपर्क अभियान चलाने एवं कार्यकर्ताओं के साथ मिलकर चुनावी जिम्मेदारियों का निष्ठापूर्वक निर्वहन किया।": ["Worked as co-in-charge with Shri Manpreet Singh Badal, strengthening the organisation, running public-outreach campaigns and diligently carrying out election responsibilities together with party workers.", "ਸ਼੍ਰੀ ਮਨਪ੍ਰੀਤ ਸਿੰਘ ਬਾਦਲ ਜੀ ਦੇ ਨਾਲ ਸਹਿ-ਇੰਚਾਰਜ ਵਜੋਂ ਕੰਮ ਕਰਦਿਆਂ ਸੰਗਠਨ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਨ, ਜਨ-ਸੰਪਰਕ ਮੁਹਿੰਮ ਚਲਾਉਣ ਅਤੇ ਵਰਕਰਾਂ ਨਾਲ ਮਿਲ ਕੇ ਚੋਣ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਦਾ ਨਿਸ਼ਠਾ ਨਾਲ ਨਿਰਵਾਹ ਕੀਤਾ।"], "तरनतारन उपचुनाव :": ["Tarn Taran by-election:", "ਤਰਨ ਤਾਰਨ ਜ਼ਿਮਨੀ ਚੋਣ:"], "समर्पित कार्यकर्ता के रूप में पार्टी की निष्ठापूर्वक सेवा की।": ["Served the party faithfully as a dedicated worker.", "ਸਮਰਪਿਤ ਵਰਕਰ ਵਜੋਂ ਪਾਰਟੀ ਦੀ ਨਿਸ਼ਠਾ ਨਾਲ ਸੇਵਾ ਕੀਤੀ।"], "दिल्ली विधानसभा चुनाव :": ["Delhi assembly election:", "ਦਿੱਲੀ ਵਿਧਾਨ ਸਭਾ ਚੋਣ:"], "सक्रिय कार्यकर्ता के रूप में जनसेवा एवं संगठन को मजबूत बनाने में अपना योगदान दिया।": ["Contributed as an active worker to public service and to strengthening the organisation.", "ਸਰਗਰਮ ਵਰਕਰ ਵਜੋਂ ਲੋਕ ਸੇਵਾ ਅਤੇ ਸੰਗਠਨ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਨ ਵਿੱਚ ਆਪਣਾ ਯੋਗਦਾਨ ਪਾਇਆ।"], "मोहाली नगर निगम चुनाव :": ["Mohali Municipal Corporation election:", "ਮੋਹਾਲੀ ਨਗਰ ਨਿਗਮ ਚੋਣ:"], "सह-प्रभारी के रूप में संगठन एवं जनसेवा के लिए सक्रिय भूमिका निभाई।": ["Played an active role as co-in-charge for the organisation and public service.", "ਸਹਿ-ਇੰਚਾਰਜ ਵਜੋਂ ਸੰਗਠਨ ਅਤੇ ਲੋਕ ਸੇਵਾ ਲਈ ਸਰਗਰਮ ਭੂਮਿਕਾ ਨਿਭਾਈ।"], "समाज के बीच": ["Among the people", "ਸਮਾਜ ਦੇ ਵਿਚਕਾਰ"], "धार्मिक-सामाजिक आयोजनों से लेकर रक्तदान और मेडिकल कैंप तक — सेवा का दायरा।": ["From religious and social events to blood donation and medical camps — the range of service.", "ਧਾਰਮਿਕ-ਸਮਾਜਿਕ ਸਮਾਗਮਾਂ ਤੋਂ ਲੈ ਕੇ ਖ਼ੂਨਦਾਨ ਅਤੇ ਮੈਡੀਕਲ ਕੈਂਪ ਤੱਕ — ਸੇਵਾ ਦਾ ਦਾਇਰਾ।"], "वर्तमान संगठनात्मक गतिविधियाँ": ["Current organisational activities", "ਮੌਜੂਦਾ ਸੰਗਠਨਾਤਮਕ ਗਤੀਵਿਧੀਆਂ"], "चेयरमैन": ["Chairman", "ਚੇਅਰਮੈਨ"], "बसंत एवेन्यू डुगरी रामलीला और दशहरा कमेटी (R.g.)": ["Basant Avenue Dugri Ramlila & Dussehra Committee (Regd.)", "ਬਸੰਤ ਐਵੇਨਿਊ ਡੁਗਰੀ ਰਾਮਲੀਲਾ ਅਤੇ ਦੁਸਹਿਰਾ ਕਮੇਟੀ (ਰਜਿ.)"], "श्री राम महोत्सव कमेटी, डुगरी (R.g.)": ["Shri Ram Mahotsav Committee, Dugri (Regd.)", "ਸ਼੍ਰੀ ਰਾਮ ਮਹੋਤਸਵ ਕਮੇਟੀ, ਡੁਗਰੀ (ਰਜਿ.)"], "संरक्षक": ["Patron", "ਸਰਪ੍ਰਸਤ"], "नीलकंठ सेवा समिति, लुधियाना, पंजाब (R.g.)": ["Neelkanth Seva Samiti, Ludhiana, Punjab (Regd.)", "ਨੀਲਕੰਠ ਸੇਵਾ ਸੰਮਤੀ, ਲੁਧਿਆਣਾ, ਪੰਜਾਬ (ਰਜਿ.)"], "प्रमुख आयोजन": ["Major events", "ਮੁੱਖ ਸਮਾਗਮ"], "माँ चिंतपूर्णी भंडारे का आयोजन": ["Organising the Maa Chintpurni bhandara", "ਮਾਂ ਚਿੰਤਪੂਰਨੀ ਦੇ ਭੰਡਾਰੇ ਦਾ ਆਯੋਜਨ"], "श्री अमरनाथ यात्रा के भंडारे का आयोजन": ["Organising the bhandara for the Shri Amarnath Yatra", "ਸ਼੍ਰੀ ਅਮਰਨਾਥ ਯਾਤਰਾ ਦੇ ਭੰਡਾਰੇ ਦਾ ਆਯੋਜਨ"], "बसंत एवेन्यू, लुधियाना में रामलीला और दशहरा का आयोजन": ["Organising Ramlila and Dussehra at Basant Avenue, Ludhiana", "ਬਸੰਤ ਐਵੇਨਿਊ, ਲੁਧਿਆਣਾ ਵਿੱਚ ਰਾਮਲੀਲਾ ਅਤੇ ਦੁਸਹਿਰੇ ਦਾ ਆਯੋਜਨ"], "डुगरी, लुधियाना में राम नवमी शोभा यात्रा का आयोजन": ["Organising the Ram Navami Shobha Yatra in Dugri, Ludhiana", "ਡੁਗਰੀ, ਲੁਧਿਆਣਾ ਵਿੱਚ ਰਾਮ ਨੌਮੀ ਸ਼ੋਭਾ ਯਾਤਰਾ ਦਾ ਆਯੋਜਨ"], "नीलकंठ सेवा कमेटी की वेबसाइट पर प्रश्न-उत्तर प्रतियोगिता चलाकर": ["Through a quiz contest on the Neelkanth Seva Committee's website, we connected", "ਨੀਲਕੰਠ ਸੇਵਾ ਕਮੇਟੀ ਦੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਪ੍ਰਸ਼ਨ-ਉੱਤਰ ਮੁਕਾਬਲਾ ਚਲਾ ਕੇ"], "2.56 लाख से अधिक लोगों": ["more than 2.56 lakh people", "2.56 ਲੱਖ ਤੋਂ ਵੱਧ ਲੋਕਾਂ"], "को सोशल मीडिया के द्वारा जोड़ा गया, और इसके लिए संगठन को": ["through social media, and for this the organisation received an", "ਨੂੰ ਸੋਸ਼ਲ ਮੀਡੀਆ ਰਾਹੀਂ ਜੋੜਿਆ ਗਿਆ, ਅਤੇ ਇਸ ਲਈ ਸੰਗਠਨ ਨੂੰ"], "P.M.O. की ओर से Award": ["Award from the PMO", "ਪੀ.ਐਮ.ਓ. ਵੱਲੋਂ ਐਵਾਰਡ"], "मिला।": [".", "ਮਿਲਿਆ।"], "RSS गतिविधियाँ": ["RSS activities", "RSS ਗਤੀਵਿਧੀਆਂ"], "शाखा में स्वयंसेवक के तौर पर कार्य": ["Worked as a swayamsevak in the shakha", "ਸ਼ਾਖਾ ਵਿੱਚ ਸਵੈਮਸੇਵਕ ਵਜੋਂ ਕੰਮ"], "धर्म जागरण मंच में कार्य": ["Work in Dharm Jagran Manch", "ਧਰਮ ਜਾਗਰਣ ਮੰਚ ਵਿੱਚ ਕੰਮ"], "स्वदेशी जागरण मंच में कार्य (वर्तमान में सक्रिय)": ["Work in Swadeshi Jagran Manch (currently active)", "ਸਵਦੇਸ਼ੀ ਜਾਗਰਣ ਮੰਚ ਵਿੱਚ ਕੰਮ (ਇਸ ਸਮੇਂ ਸਰਗਰਮ)"], "जिला संयोजक, विश्वकर्मा जिला": ["District Convener, Vishwakarma district", "ਜ਼ਿਲ੍ਹਾ ਕਨਵੀਨਰ, ਵਿਸ਼ਵਕਰਮਾ ਜ਼ਿਲ੍ਹਾ"], "विचारधारा": ["Ideology", "ਵਿਚਾਰਧਾਰਾ"], "भा.ज.पा. की विचारधारा": ["The BJP's ideology of", "ਭਾ.ਜ.ਪਾ. ਦੀ ਵਿਚਾਰਧਾਰਾ"], "‘अंत्योदय, अनुशासन और राष्ट्रवाद’": ["‘Antyodaya, discipline and nationalism’", "‘ਅੰਤੋਦਿਆ, ਅਨੁਸ਼ਾਸਨ ਅਤੇ ਰਾਸ਼ਟਰਵਾਦ’"], "मेरे मार्गदर्शक सिद्धांत हैं।": ["is my guiding principle.", "ਮੇਰੇ ਮਾਰਗ-ਦਰਸ਼ਕ ਸਿਧਾਂਤ ਹਨ।"], "क्षेत्र में किए गए मुख्य सामाजिक कार्य": ["Main social work done in the area", "ਖੇਤਰ ਵਿੱਚ ਕੀਤੇ ਗਏ ਮੁੱਖ ਸਮਾਜਿਕ ਕੰਮ"], "क्षेत्र में मुफ़्त आधार कार्ड शिविर लगाए गए": ["Free Aadhaar card camps organised in the area", "ਖੇਤਰ ਵਿੱਚ ਮੁਫ਼ਤ ਆਧਾਰ ਕਾਰਡ ਕੈਂਪ ਲਗਾਏ ਗਏ"], "क्षेत्र में हनुमान चालीसा पाठ करवाए गए": ["Hanuman Chalisa recitals organised in the area", "ਖੇਤਰ ਵਿੱਚ ਹਨੂੰਮਾਨ ਚਾਲੀਸਾ ਪਾਠ ਕਰਵਾਏ ਗਏ"], "क्षेत्र में सफ़ाई अभियान चलाया गया": ["Cleanliness drive carried out in the area", "ਖੇਤਰ ਵਿੱਚ ਸਫ਼ਾਈ ਮੁਹਿੰਮ ਚਲਾਈ ਗਈ"], "अमरनाथ यात्रा के लिए मुफ़्त बस सुविधा": ["Free bus facility for the Amarnath Yatra", "ਅਮਰਨਾਥ ਯਾਤਰਾ ਲਈ ਮੁਫ਼ਤ ਬੱਸ ਸਹੂਲਤ"], "सावन महीने में कांवड़ यात्रा के दौरान कांवड़ियों के लिए शिविर का आयोजन किया गया": ["A camp organised for Kanwariyas during the Kanwar Yatra in the month of Sawan", "ਸਾਵਣ ਦੇ ਮਹੀਨੇ ਵਿੱਚ ਕਾਂਵੜ ਯਾਤਰਾ ਦੌਰਾਨ ਕਾਂਵੜੀਆਂ ਲਈ ਕੈਂਪ ਦਾ ਆਯੋਜਨ ਕੀਤਾ ਗਿਆ"], "दक्षिण विधानसभा, सुआ रोड पर रोज़ाना हज़ारों लोगों के वोटर कार्ड, आयुष्मान कार्ड एवं आधार कार्ड का निःशुल्क कार्य किया जा रहा है": ["Free voter card, Ayushman card and Aadhaar card services for thousands of people every day at Sua Road, South Assembly constituency", "ਦੱਖਣੀ ਵਿਧਾਨ ਸਭਾ, ਸੁਆ ਰੋਡ 'ਤੇ ਰੋਜ਼ਾਨਾ ਹਜ਼ਾਰਾਂ ਲੋਕਾਂ ਦੇ ਵੋਟਰ ਕਾਰਡ, ਆਯੁਸ਼ਮਾਨ ਕਾਰਡ ਅਤੇ ਆਧਾਰ ਕਾਰਡ ਦਾ ਮੁਫ਼ਤ ਕੰਮ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"], "क्षेत्र में आधार कार्ड शिविर, अमरनाथ यात्रा के लिए बस सुविधा और सेवा कार्यों की झलकियाँ": ["Glimpses of the Aadhaar card camp, bus facility for the Amarnath Yatra and service work in the area", "ਖੇਤਰ ਵਿੱਚ ਆਧਾਰ ਕਾਰਡ ਕੈਂਪ, ਅਮਰਨਾਥ ਯਾਤਰਾ ਲਈ ਬੱਸ ਸਹੂਲਤ ਅਤੇ ਸੇਵਾ ਕਾਰਜਾਂ ਦੀਆਂ ਝਲਕੀਆਂ"], "शिविर, यात्रा सुविधा और सेवा कार्यों की झलकियाँ": ["Glimpses of camps, yatra facilities and service work", "ਕੈਂਪਾਂ, ਯਾਤਰਾ ਸਹੂਲਤਾਂ ਅਤੇ ਸੇਵਾ ਕਾਰਜਾਂ ਦੀਆਂ ਝਲਕੀਆਂ"], "रुचि और कार्य": ["Interests & work", "ਰੁਚੀ ਅਤੇ ਕੰਮ"], "हमेशा लोगों की मदद के लिए तैयार": ["Always ready to help people", "ਹਮੇਸ਼ਾ ਲੋਕਾਂ ਦੀ ਮਦਦ ਲਈ ਤਿਆਰ"], "ज़रूरतमंद की पुकार पर सबसे पहले पहुँचना ही सेवा का पहला कदम है।": ["Reaching out first when someone in need calls is the first step of service.", "ਲੋੜਵੰਦ ਦੀ ਪੁਕਾਰ 'ਤੇ ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਪਹੁੰਚਣਾ ਹੀ ਸੇਵਾ ਦਾ ਪਹਿਲਾ ਕਦਮ ਹੈ।"], "देश की सेवा और सामाजिक कार्य": ["Service to the nation and society", "ਦੇਸ਼ ਦੀ ਸੇਵਾ ਅਤੇ ਸਮਾਜਿਕ ਕੰਮ"], "देश की सेवा और सामाजिक कार्यों के लिए हर समय तत्पर।": ["Always ready for service to the nation and for social work.", "ਦੇਸ਼ ਦੀ ਸੇਵਾ ਅਤੇ ਸਮਾਜਿਕ ਕੰਮਾਂ ਲਈ ਹਰ ਸਮੇਂ ਤਿਆਰ।"], "रक्तदान शिविर": ["Blood donation camp", "ਖ਼ੂਨਦਾਨ ਕੈਂਪ"], "हर साल Blood Donate Camp का आयोजन किया जाता है एवं ज़रूरतमंदों को Donor उपलब्ध कराने में सहयोग किया जाता है।": ["A Blood Donation Camp is organised every year, and help is provided in arranging donors for those in need.", "ਹਰ ਸਾਲ ਖ਼ੂਨਦਾਨ ਕੈਂਪ ਦਾ ਆਯੋਜਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਲੋੜਵੰਦਾਂ ਲਈ ਖ਼ੂਨਦਾਤਾ ਉਪਲਬਧ ਕਰਵਾਉਣ ਵਿੱਚ ਸਹਿਯੋਗ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"], "मेडिकल कैंप": ["Medical camp", "ਮੈਡੀਕਲ ਕੈਂਪ"], "ज़रूरतमंद मरीज़ों के लिए Medical Camp लगाए जाते हैं।": ["Medical Camps are organised for patients in need.", "ਲੋੜਵੰਦ ਮਰੀਜ਼ਾਂ ਲਈ ਮੈਡੀਕਲ ਕੈਂਪ ਲਗਾਏ ਜਾਂਦੇ ਹਨ।"], "बदलाव का संकल्प": ["A pledge for change", "ਬਦਲਾਅ ਦਾ ਸੰਕਲਪ"], "लुधियाना दक्षिण के लिए संकल्प": ["Pledges for Ludhiana South", "ਲੁਧਿਆਣਾ ਦੱਖਣੀ ਲਈ ਸੰਕਲਪ"], "पंजाब में भाजपा की सरकार बनने पर लुधियाना दक्षिण विधानसभा में करने वाले मुख्य कार्य।": ["Main works to be done in the Ludhiana South assembly constituency once a BJP government is formed in Punjab.", "ਪੰਜਾਬ ਵਿੱਚ ਭਾਜਪਾ ਦੀ ਸਰਕਾਰ ਬਣਨ 'ਤੇ ਲੁਧਿਆਣਾ ਦੱਖਣੀ ਵਿਧਾਨ ਸਭਾ ਵਿੱਚ ਕੀਤੇ ਜਾਣ ਵਾਲੇ ਮੁੱਖ ਕੰਮ।"], "तीन महीने के अंदर साफ़ व स्वच्छ पानी की सुविधा सुनिश्चित की जाएगी।": ["Clean and safe drinking water will be ensured within three months.", "ਤਿੰਨ ਮਹੀਨਿਆਂ ਦੇ ਅੰਦਰ ਸਾਫ਼ ਤੇ ਸਵੱਛ ਪਾਣੀ ਦੀ ਸਹੂਲਤ ਯਕੀਨੀ ਬਣਾਈ ਜਾਵੇਗੀ।"], "विधानसभा की प्रत्येक एंट्री पर नशाखोरों की रोकथाम के लिए पुलिस पार्टी बढ़ाई जाएगी।": ["Police presence will be increased at every entry point of the constituency to curb drug abusers.", "ਵਿਧਾਨ ਸਭਾ ਦੀ ਹਰ ਐਂਟਰੀ 'ਤੇ ਨਸ਼ਾਖ਼ੋਰਾਂ ਦੀ ਰੋਕਥਾਮ ਲਈ ਪੁਲਿਸ ਪਾਰਟੀ ਵਧਾਈ ਜਾਵੇਗੀ।"], "तीन महीने में सभी सड़कों का काम करवाया जाएगा।": ["Work on all roads will be completed within three months.", "ਤਿੰਨ ਮਹੀਨਿਆਂ ਵਿੱਚ ਸਾਰੀਆਂ ਸੜਕਾਂ ਦਾ ਕੰਮ ਕਰਵਾਇਆ ਜਾਵੇਗਾ।"], "क्षेत्र से लुटेरों / बदमाशों को सलाखों के पीछे किया जाएगा।": ["Robbers and miscreants will be put behind bars.", "ਖੇਤਰ ਵਿੱਚੋਂ ਲੁਟੇਰਿਆਂ / ਬਦਮਾਸ਼ਾਂ ਨੂੰ ਸਲਾਖਾਂ ਪਿੱਛੇ ਕੀਤਾ ਜਾਵੇਗਾ।"], "छोटे प्लॉट की रजिस्ट्री करवाने में हो रही चोर-बाज़ारी को ख़त्म किया जाएगा।": ["The black-marketeering in registration of small plots will be ended.", "ਛੋਟੇ ਪਲਾਟਾਂ ਦੀ ਰਜਿਸਟਰੀ ਕਰਵਾਉਣ ਵਿੱਚ ਹੋ ਰਹੀ ਚੋਰ-ਬਾਜ਼ਾਰੀ ਨੂੰ ਖ਼ਤਮ ਕੀਤਾ ਜਾਵੇਗਾ।"], "क्षेत्र में इंडस्ट्री मालिकों के लिए विशेष कमेटी बनाई जाएगी, जो उनकी सभी समस्याओं का समाधान करेगी।": ["A special committee will be formed for industry owners to resolve all their problems.", "ਖੇਤਰ ਵਿੱਚ ਇੰਡਸਟਰੀ ਮਾਲਕਾਂ ਲਈ ਵਿਸ਼ੇਸ਼ ਕਮੇਟੀ ਬਣਾਈ ਜਾਵੇਗੀ, ਜੋ ਉਨ੍ਹਾਂ ਦੀਆਂ ਸਾਰੀਆਂ ਸਮੱਸਿਆਵਾਂ ਦਾ ਹੱਲ ਕਰੇਗੀ।"], "यू.पी. व बिहार से आकर पंजाब में बसे हमारे भाई-बहनों की सुरक्षा के लिए सभी प्रमुख चौकों पर पुलिस पार्टी तैनात की जाएगी।": ["Police pickets will be deployed at all major crossings for the safety of our brothers and sisters from U.P. and Bihar who have settled in Punjab.", "ਯੂ.ਪੀ. ਅਤੇ ਬਿਹਾਰ ਤੋਂ ਆ ਕੇ ਪੰਜਾਬ ਵਿੱਚ ਵੱਸੇ ਸਾਡੇ ਭੈਣ-ਭਰਾਵਾਂ ਦੀ ਸੁਰੱਖਿਆ ਲਈ ਸਾਰੇ ਮੁੱਖ ਚੌਕਾਂ 'ਤੇ ਪੁਲਿਸ ਪਾਰਟੀ ਤੈਨਾਤ ਕੀਤੀ ਜਾਵੇਗੀ।"], "बहाने नहीं, बदलाव चाहिए": ["We want change, not excuses", "ਬਹਾਨੇ ਨਹੀਂ, ਬਦਲਾਅ ਚਾਹੀਦਾ ਹੈ"], "पंजाब में भाजपा सरकार चाहिए": ["Punjab needs a BJP government", "ਪੰਜਾਬ ਵਿੱਚ ਭਾਜਪਾ ਸਰਕਾਰ ਚਾਹੀਦੀ ਹੈ"], "देश में किया विकास – अब पंजाब की बारी है": ["Development done for the country — now it's Punjab's turn", "ਦੇਸ਼ ਵਿੱਚ ਕੀਤਾ ਵਿਕਾਸ – ਹੁਣ ਪੰਜਾਬ ਦੀ ਵਾਰੀ ਹੈ"], "यादगार क्षण": ["Memorable moments", "ਯਾਦਗਾਰੀ ਪਲ"], "फ़ोटो गैलरी": ["Photo Gallery", "ਫ਼ੋਟੋ ਗੈਲਰੀ"], "संगठन, जनसंपर्क और कार्यक्रमों की कुछ झलकियाँ। बड़ा देखने के लिए फ़ोटो पर टैप करें।": ["Glimpses of organisation, public outreach and events. Tap a photo to enlarge.", "ਸੰਗਠਨ, ਜਨ-ਸੰਪਰਕ ਅਤੇ ਪ੍ਰੋਗਰਾਮਾਂ ਦੀਆਂ ਕੁਝ ਝਲਕੀਆਂ। ਵੱਡਾ ਵੇਖਣ ਲਈ ਫ਼ੋਟੋ 'ਤੇ ਟੈਪ ਕਰੋ।"], "फ़ोटो बड़ी करें": ["Enlarge photo", "ਫ਼ੋਟੋ ਵੱਡੀ ਕਰੋ"], "जालंधर में ‘समरसता संकल्प यात्रा’ का शुभारंभ — भाजपा के राष्ट्रीय अध्यक्ष श्री नितिन नबीन ने यात्रा शुरू की। श्री विभोर गर्ग और श्री शिवराम गुप्ता ने राष्ट्रीय अध्यक्ष का स्वागत किया।": ["Launch of the ‘Samarasta Sankalp Yatra’ in Jalandhar — BJP National President Shri Nitin Nabin flagged off the yatra. Shri Vibhor Garg and Shri Shivram Gupta welcomed the National President.", "ਜਲੰਧਰ ਵਿੱਚ ‘ਸਮਰਸਤਾ ਸੰਕਲਪ ਯਾਤਰਾ’ ਦੀ ਸ਼ੁਰੂਆਤ — ਭਾਜਪਾ ਦੇ ਰਾਸ਼ਟਰੀ ਪ੍ਰਧਾਨ ਸ਼੍ਰੀ ਨਿਤਿਨ ਨਬੀਨ ਨੇ ਯਾਤਰਾ ਨੂੰ ਰਵਾਨਾ ਕੀਤਾ। ਸ਼੍ਰੀ ਵਿਭੋਰ ਗਰਗ ਅਤੇ ਸ਼੍ਰੀ ਸ਼ਿਵਰਾਮ ਗੁਪਤਾ ਨੇ ਰਾਸ਼ਟਰੀ ਪ੍ਰਧਾਨ ਦਾ ਸਵਾਗਤ ਕੀਤਾ।"], "हरियाणा के माननीय मुख्यमंत्री के साथ सम्मान समारोह की कुछ विशेष झलकियाँ।": ["Glimpses of the felicitation ceremony with the Hon'ble Chief Minister of Haryana.", "ਹਰਿਆਣਾ ਦੇ ਮਾਣਯੋਗ ਮੁੱਖ ਮੰਤਰੀ ਨਾਲ ਸਨਮਾਨ ਸਮਾਰੋਹ ਦੀਆਂ ਕੁਝ ਖ਼ਾਸ ਝਲਕੀਆਂ।"], "स्वदेशी शोध संस्थान द्वारा आयोजित स्वरोजगार एवं उद्यमिता प्रोत्साहन कार्यशाला में सहभागिता की। कार्यशाला से आत्मनिर्भरता, नवाचार एवं उद्यमिता के क्षेत्र में नई प्रेरणा एवं महत्वपूर्ण मार्गदर्शन प्राप्त हुआ।": ["Took part in the self-employment and entrepreneurship promotion workshop organised by Swadeshi Shodh Sansthan. The workshop provided fresh inspiration and valuable guidance on self-reliance, innovation and entrepreneurship.", "ਸਵਦੇਸ਼ੀ ਸ਼ੋਧ ਸੰਸਥਾਨ ਵੱਲੋਂ ਆਯੋਜਿਤ ਸਵੈ-ਰੁਜ਼ਗਾਰ ਅਤੇ ਉੱਦਮਤਾ ਪ੍ਰੋਤਸਾਹਨ ਵਰਕਸ਼ਾਪ ਵਿੱਚ ਸ਼ਮੂਲੀਅਤ ਕੀਤੀ। ਵਰਕਸ਼ਾਪ ਤੋਂ ਆਤਮ-ਨਿਰਭਰਤਾ, ਨਵੀਨਤਾ ਅਤੇ ਉੱਦਮਤਾ ਦੇ ਖੇਤਰ ਵਿੱਚ ਨਵੀਂ ਪ੍ਰੇਰਣਾ ਅਤੇ ਮਹੱਤਵਪੂਰਨ ਮਾਰਗਦਰਸ਼ਨ ਪ੍ਰਾਪਤ ਹੋਇਆ।"], "स्वदेशी जागरण मेले के दौरान माननीय राज्यपाल महोदय के साथ बिताए गए कुछ यादगार क्षण।": ["Memorable moments with the Hon'ble Governor during the Swadeshi Jagran Mela.", "ਸਵਦੇਸ਼ੀ ਜਾਗਰਣ ਮੇਲੇ ਦੌਰਾਨ ਮਾਣਯੋਗ ਰਾਜਪਾਲ ਸਾਹਿਬ ਨਾਲ ਬਿਤਾਏ ਕੁਝ ਯਾਦਗਾਰੀ ਪਲ।"], "चुनाव के दौरान श्री मनप्रीत सिंह बादल एवं श्री अश्विनी शर्मा जी के साथ कार्य करते हुए कुछ यादगार क्षण।": ["Memorable moments working with Shri Manpreet Singh Badal and Shri Ashwani Sharma during the elections.", "ਚੋਣਾਂ ਦੌਰਾਨ ਸ਼੍ਰੀ ਮਨਪ੍ਰੀਤ ਸਿੰਘ ਬਾਦਲ ਅਤੇ ਸ਼੍ਰੀ ਅਸ਼ਵਨੀ ਸ਼ਰਮਾ ਜੀ ਦੇ ਨਾਲ ਕੰਮ ਕਰਦਿਆਂ ਕੁਝ ਯਾਦਗਾਰੀ ਪਲ।"], "विधानसभा उपचुनाव के दौरान अपने साथी श्री जीवन गुप्ता जी एवं समर्पित कार्यकर्ताओं के साथ मिलकर संगठन के लिए कार्य करते हुए बिताए गए कुछ यादगार पल।": ["Memorable moments working for the organisation with colleague Shri Jeevan Gupta and dedicated workers during the assembly by-election.", "ਵਿਧਾਨ ਸਭਾ ਜ਼ਿਮਨੀ ਚੋਣ ਦੌਰਾਨ ਆਪਣੇ ਸਾਥੀ ਸ਼੍ਰੀ ਜੀਵਨ ਗੁਪਤਾ ਜੀ ਅਤੇ ਸਮਰਪਿਤ ਵਰਕਰਾਂ ਨਾਲ ਮਿਲ ਕੇ ਸੰਗਠਨ ਲਈ ਕੰਮ ਕਰਦਿਆਂ ਬਿਤਾਏ ਗਏ ਕੁਝ ਯਾਦਗਾਰੀ ਪਲ।"], "लुधियाना भाजपा परिवार के साथ संगठन एवं जनसेवा के कुछ यादगार क्षण।": ["Memorable moments of organisation and public service with the Ludhiana BJP family.", "ਲੁਧਿਆਣਾ ਭਾਜਪਾ ਪਰਿਵਾਰ ਨਾਲ ਸੰਗਠਨ ਅਤੇ ਲੋਕ ਸੇਵਾ ਦੇ ਕੁਝ ਯਾਦਗਾਰੀ ਪਲ।"], "पंजाब सरकार के विरुद्ध आयोजित विरोध-प्रदर्शन के दौरान कार्यकर्ताओं के साथ एकजुटता व्यक्त करते हुए।": ["Standing in solidarity with party workers during a protest against the Punjab government.", "ਪੰਜਾਬ ਸਰਕਾਰ ਦੇ ਵਿਰੁੱਧ ਕੀਤੇ ਗਏ ਰੋਸ-ਪ੍ਰਦਰਸ਼ਨ ਦੌਰਾਨ ਵਰਕਰਾਂ ਨਾਲ ਇਕਜੁੱਟਤਾ ਪ੍ਰਗਟ ਕਰਦਿਆਂ।"], "श्री जय इंदर जी के साथ संगठनात्मक कार्यों एवं विभिन्न विषयों पर चर्चा करते हुए।": ["Discussing organisational work and various issues with Shri Jai Inder.", "ਸ਼੍ਰੀ ਜੈ ਇੰਦਰ ਜੀ ਨਾਲ ਸੰਗਠਨਾਤਮਕ ਕੰਮਾਂ ਅਤੇ ਵੱਖ-ਵੱਖ ਮੁੱਦਿਆਂ 'ਤੇ ਚਰਚਾ ਕਰਦਿਆਂ।"], "पार्टी की गतिविधियों एवं जनहित के मुद्दों पर मीडिया से चर्चा करते हुए।": ["Speaking to the media on party activities and issues of public interest.", "ਪਾਰਟੀ ਦੀਆਂ ਗਤੀਵਿਧੀਆਂ ਅਤੇ ਲੋਕ-ਹਿਤ ਦੇ ਮੁੱਦਿਆਂ 'ਤੇ ਮੀਡੀਆ ਨਾਲ ਗੱਲ ਕਰਦਿਆਂ।"], "धार्मिक यात्रा को हर्षोल्लास एवं श्रद्धा के साथ रवाना करते हुए।": ["Flagging off a religious yatra with joy and devotion.", "ਧਾਰਮਿਕ ਯਾਤਰਾ ਨੂੰ ਖ਼ੁਸ਼ੀ ਅਤੇ ਸ਼ਰਧਾ ਨਾਲ ਰਵਾਨਾ ਕਰਦਿਆਂ।"], "विधानसभा में भाजपा कार्यकर्ताओं के साथ संगठनात्मक बैठक एवं विचार-विमर्श के कुछ यादगार क्षण।": ["Memorable moments from an organisational meeting and discussion with BJP workers at the assembly.", "ਵਿਧਾਨ ਸਭਾ ਵਿੱਚ ਭਾਜਪਾ ਵਰਕਰਾਂ ਨਾਲ ਸੰਗਠਨਾਤਮਕ ਮੀਟਿੰਗ ਅਤੇ ਵਿਚਾਰ-ਵਟਾਂਦਰੇ ਦੇ ਕੁਝ ਯਾਦਗਾਰੀ ਪਲ।"], "जनता के बीच जाकर उनके विश्वास और सहयोग को मजबूत करते हुए।": ["Going among the people and strengthening their trust and cooperation.", "ਲੋਕਾਂ ਵਿੱਚ ਜਾ ਕੇ ਉਨ੍ਹਾਂ ਦੇ ਵਿਸ਼ਵਾਸ ਅਤੇ ਸਹਿਯੋਗ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਦਿਆਂ।"], "वार्ड संख्या 72 में भाजपा पार्षद श्री रुचि गुलाटी जी एवं श्री रवनीत सिंह बिट्टू जी के साथ जनसंपर्क अभियान एवं जनसेवा के कार्यों में सक्रिय सहभागिता निभाई।": ["Took active part in a public-outreach campaign and public-service work in Ward No. 72 with BJP councillor Shri Ruchi Gulati and Shri Ravneet Singh Bittu.", "ਵਾਰਡ ਨੰਬਰ 72 ਵਿੱਚ ਭਾਜਪਾ ਕੌਂਸਲਰ ਸ਼੍ਰੀ ਰੁਚੀ ਗੁਲਾਟੀ ਜੀ ਅਤੇ ਸ਼੍ਰੀ ਰਵਨੀਤ ਸਿੰਘ ਬਿੱਟੂ ਜੀ ਦੇ ਨਾਲ ਜਨ-ਸੰਪਰਕ ਮੁਹਿੰਮ ਅਤੇ ਲੋਕ ਸੇਵਾ ਦੇ ਕੰਮਾਂ ਵਿੱਚ ਸਰਗਰਮ ਭਾਗੀਦਾਰੀ ਨਿਭਾਈ।"], "स्वरोजगार एवं उद्यमिता प्रोत्साहन कार्यशाला की झलकियाँ।": ["Glimpses of the self-employment and entrepreneurship promotion workshop.", "ਸਵੈ-ਰੁਜ਼ਗਾਰ ਅਤੇ ਉੱਦਮਤਾ ਪ੍ਰੋਤਸਾਹਨ ਵਰਕਸ਼ਾਪ ਦੀਆਂ ਝਲਕੀਆਂ।"], "समाचार पत्रों में": ["In the newspapers", "ਅਖ਼ਬਾਰਾਂ ਵਿੱਚ"], "कतरन बड़ी करें": ["Enlarge clipping", "ਕਤਰਨ ਵੱਡੀ ਕਰੋ"], "नशा मुक्त पंजाब के संकल्प को लेकर मेरी आवाज़ समाचार पत्रों के माध्यम से जनता तक पहुँची। समाज को नशे के खिलाफ एकजुट होकर जागरूक करने का हमारा प्रयास निरंतर जारी है।": ["My voice for a drug-free Punjab reached the people through the newspapers. Our effort to unite and awaken society against drugs continues.", "ਨਸ਼ਾ-ਮੁਕਤ ਪੰਜਾਬ ਦੇ ਸੰਕਲਪ ਨੂੰ ਲੈ ਕੇ ਮੇਰੀ ਆਵਾਜ਼ ਅਖ਼ਬਾਰਾਂ ਰਾਹੀਂ ਲੋਕਾਂ ਤੱਕ ਪਹੁੰਚੀ। ਸਮਾਜ ਨੂੰ ਨਸ਼ਿਆਂ ਵਿਰੁੱਧ ਇਕਜੁੱਟ ਹੋ ਕੇ ਜਾਗਰੂਕ ਕਰਨ ਦਾ ਸਾਡਾ ਯਤਨ ਲਗਾਤਾਰ ਜਾਰੀ ਹੈ।"], "पंजाब केसरी, लुधियाना · 22 सितम्बर 2024": ["Punjab Kesari, Ludhiana · 22 September 2024", "ਪੰਜਾਬ ਕੇਸਰੀ, ਲੁਧਿਆਣਾ · 22 ਸਤੰਬਰ 2024"], "दिल्ली विधानसभा चुनाव अभियान के दौरान के कुछ अविस्मरणीय क्षण।": ["Some unforgettable moments from the Delhi assembly election campaign.", "ਦਿੱਲੀ ਵਿਧਾਨ ਸਭਾ ਚੋਣ ਮੁਹਿੰਮ ਦੇ ਦੌਰਾਨ ਦੇ ਕੁਝ ਅਭੁੱਲ ਪਲ।"], "पंजाब केसरी, लुधियाना · 31 जनवरी 2025": ["Punjab Kesari, Ludhiana · 31 January 2025", "ਪੰਜਾਬ ਕੇਸਰੀ, ਲੁਧਿਆਣਾ · 31 ਜਨਵਰੀ 2025"], "स्वदेशी मेले में आत्मनिर्भर भारत और स्वदेशी उत्पादों को समर्पित कुछ विशेष झलकियाँ।": ["Glimpses dedicated to Atmanirbhar Bharat and Swadeshi products at the Swadeshi Mela.", "ਸਵਦੇਸ਼ੀ ਮੇਲੇ ਵਿੱਚ ਆਤਮ-ਨਿਰਭਰ ਭਾਰਤ ਅਤੇ ਸਵਦੇਸ਼ੀ ਉਤਪਾਦਾਂ ਨੂੰ ਸਮਰਪਿਤ ਕੁਝ ਖ਼ਾਸ ਝਲਕੀਆਂ।"], "समाचार पत्र कवरेज": ["Newspaper coverage", "ਅਖ਼ਬਾਰੀ ਕਵਰੇਜ"], "जुड़े रहें": ["Stay connected", "ਜੁੜੇ ਰਹੋ"], "इंस्टाग्राम, फ़ेसबुक, यूट्यूब, X और व्हाट्सऐप चैनल पर हमारे पेज — वीडियो और ताज़ा अपडेट।": ["Our pages on Instagram, Facebook, YouTube, X and the WhatsApp channel — videos and the latest updates.", "ਇੰਸਟਾਗ੍ਰਾਮ, ਫ਼ੇਸਬੁੱਕ, ਯੂਟਿਊਬ, X ਅਤੇ ਵਟਸਐਪ ਚੈਨਲ 'ਤੇ ਸਾਡੇ ਪੇਜ — ਵੀਡੀਓ ਅਤੇ ਤਾਜ਼ਾ ਅਪਡੇਟ।"], "खोलें": ["Open", "ਖੋਲ੍ਹੋ"], "Facebook पेज": ["Facebook page", "ਫ਼ੇਸਬੁੱਕ ਪੇਜ"], "चैनल से जुड़ें": ["Join the channel", "ਚੈਨਲ ਨਾਲ ਜੁੜੋ"], "ताज़ा जानकारी, कार्यक्रम और संदेश सीधे अपने फ़ोन पर पाने के लिए हमारे व्हाट्सऐप चैनल से जुड़ें।": ["Join our WhatsApp channel to get the latest information, events and messages directly on your phone.", "ਤਾਜ਼ਾ ਜਾਣਕਾਰੀ, ਪ੍ਰੋਗਰਾਮ ਅਤੇ ਸੁਨੇਹੇ ਸਿੱਧੇ ਆਪਣੇ ਫ਼ੋਨ 'ਤੇ ਪਾਉਣ ਲਈ ਸਾਡੇ ਵਟਸਐਪ ਚੈਨਲ ਨਾਲ ਜੁੜੋ।"], "आगे की राह": ["The road ahead", "ਅੱਗੇ ਦਾ ਰਾਹ"], "भविष्य के लक्ष्य": ["Future Goals", "ਭਵਿੱਖ ਦੇ ਟੀਚੇ"], "नशा-मुक्त पंजाब, नशा-मुक्त लुधियाना दक्षिण": ["Drug-free Punjab, drug-free Ludhiana South", "ਨਸ਼ਾ-ਮੁਕਤ ਪੰਜਾਬ, ਨਸ਼ਾ-ਮੁਕਤ ਲੁਧਿਆਣਾ ਦੱਖਣੀ"], "नशा तस्करों पर सख़्त कार्रवाई, नशा-मुक्ति व काउंसलिंग सहायता, और हर वार्ड में युवा जागरूकता अभियान।": ["Strict action on drug peddlers, de-addiction and counselling support, and youth awareness drives in every ward.", "ਨਸ਼ਾ ਤਸਕਰਾਂ ਵਿਰੁੱਧ ਸਖ਼ਤ ਕਾਰਵਾਈ, ਨਸ਼ਾ-ਛੁਡਾਊ ਤੇ ਕੌਂਸਲਿੰਗ ਸਹਾਇਤਾ, ਅਤੇ ਹਰ ਵਾਰਡ ਵਿੱਚ ਨੌਜਵਾਨਾਂ ਲਈ ਜਾਗਰੂਕਤਾ ਮੁਹਿੰਮ।"], "हर बच्चे के लिए शिक्षा": ["Education for every child", "ਹਰ ਬੱਚੇ ਲਈ ਸਿੱਖਿਆ"], "बेहतर सरकारी स्कूल, युवाओं के लिए मुफ़्त कोचिंग और स्किल सेंटर, तथा ज़रूरतमंद परिवारों के विद्यार्थियों के लिए छात्रवृत्ति सहायता।": ["Better government schools, free coaching and skill centres for youth, and scholarship help for students from needy families.", "ਬਿਹਤਰ ਸਰਕਾਰੀ ਸਕੂਲ, ਨੌਜਵਾਨਾਂ ਲਈ ਮੁਫ਼ਤ ਕੋਚਿੰਗ ਅਤੇ ਸਕਿੱਲ ਸੈਂਟਰ, ਅਤੇ ਲੋੜਵੰਦ ਪਰਿਵਾਰਾਂ ਦੇ ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਵਜ਼ੀਫ਼ਾ ਸਹਾਇਤਾ।"], "व्यापार और रोज़गार": ["Business and jobs", "ਕਾਰੋਬਾਰ ਅਤੇ ਰੁਜ਼ਗਾਰ"], "छोटे व्यापारियों और उद्योगों को सहयोग, आसान अनुमतियाँ, तथा स्किल ट्रेनिंग और प्लेसमेंट मेलों से स्थानीय रोज़गार।": ["Support for small traders and industry, easier permissions, and local employment through skill training and placement fairs.", "ਛੋਟੇ ਵਪਾਰੀਆਂ ਤੇ ਉਦਯੋਗਾਂ ਨੂੰ ਸਹਿਯੋਗ, ਆਸਾਨ ਮਨਜ਼ੂਰੀਆਂ, ਅਤੇ ਸਕਿੱਲ ਟ੍ਰੇਨਿੰਗ ਤੇ ਪਲੇਸਮੈਂਟ ਮੇਲਿਆਂ ਰਾਹੀਂ ਸਥਾਨਕ ਰੁਜ਼ਗਾਰ।"], "सीवरेज और ड्रेनेज": ["Sewerage and drainage", "ਸੀਵਰੇਜ ਅਤੇ ਡਰੇਨੇਜ"], "बंद पड़ी सीवर लाइनों को बदलना और बरसाती पानी की निकासी के लिए ड्रेन बिछाना, ताकि कॉलोनियाँ सूखी और ओवरफ्लो-मुक्त रहें।": ["Replace choked sewer lines and lay stormwater drains so colonies stay dry and overflow-free.", "ਬੰਦ ਸੀਵਰ ਲਾਈਨਾਂ ਬਦਲਣਾ ਅਤੇ ਮੀਂਹ ਦੇ ਪਾਣੀ ਦੇ ਨਿਕਾਸ ਲਈ ਡਰੇਨਾਂ ਪਾਉਣਾ, ਤਾਂ ਜੋ ਕਾਲੋਨੀਆਂ ਸੁੱਕੀਆਂ ਤੇ ਓਵਰਫ਼ਲੋ-ਮੁਕਤ ਰਹਿਣ।"], "स्वच्छ गलियाँ, आवारा पशु-मुक्त": ["Clean streets, no strays", "ਸਾਫ਼ ਗਲੀਆਂ, ਅਵਾਰਾ ਪਸ਼ੂ-ਮੁਕਤ"], "घर-घर कूड़ा संग्रह, ढके हुए डंप, और आवारा पशुओं व कुत्तों पर नियंत्रण।": ["Door-to-door waste collection, covered dumps, and control of stray cattle and dogs.", "ਘਰ-ਘਰ ਕੂੜਾ ਇਕੱਠਾ ਕਰਨਾ, ਢਕੇ ਹੋਏ ਡੰਪ, ਅਤੇ ਅਵਾਰਾ ਪਸ਼ੂਆਂ ਤੇ ਕੁੱਤਿਆਂ 'ਤੇ ਕਾਬੂ।"], "सुगम ट्रैफ़िक और पार्किंग": ["Smoother traffic and parking", "ਸੁਚੱਜੀ ਆਵਾਜਾਈ ਅਤੇ ਪਾਰਕਿੰਗ"], "जाम वाले चौकों पर सिग्नल और सुरक्षित डिज़ाइन, तथा बाज़ारों के पास पार्किंग।": ["Signals and safer design at jammed chowks, and parking near markets.", "ਜਾਮ ਵਾਲੇ ਚੌਕਾਂ 'ਤੇ ਸਿਗਨਲ ਅਤੇ ਸੁਰੱਖਿਅਤ ਡਿਜ਼ਾਈਨ, ਅਤੇ ਬਾਜ਼ਾਰਾਂ ਕੋਲ ਪਾਰਕਿੰਗ।"], "सुरक्षित, रोशन, हरे-भरे मोहल्ले": ["Safe, lit, green neighbourhoods", "ਸੁਰੱਖਿਅਤ, ਰੌਸ਼ਨ, ਹਰੇ-ਭਰੇ ਮੁਹੱਲੇ"], "LED स्ट्रीट लाइटें, प्रमुख चौराहों पर CCTV, और सुव्यवस्थित पार्क व खेल मैदान।": ["LED street lights, CCTV at major crossings, and well-kept parks and sports grounds.", "LED ਸਟਰੀਟ ਲਾਈਟਾਂ, ਮੁੱਖ ਚੌਰਾਹਿਆਂ 'ਤੇ CCTV, ਅਤੇ ਚੰਗੀ ਤਰ੍ਹਾਂ ਸੰਭਾਲੇ ਪਾਰਕ ਤੇ ਖੇਡ ਮੈਦਾਨ।"], "घर के पास स्वास्थ्य सेवा": ["Healthcare close to home", "ਘਰ ਦੇ ਨੇੜੇ ਸਿਹਤ ਸੇਵਾ"], "उन्नत डिस्पेंसरियाँ, नियमित मुफ़्त स्वास्थ्य शिविर, और हर पात्र परिवार के लिए आयुष्मान कार्ड।": ["Upgraded dispensaries, regular free health camps, and an Ayushman card for every eligible family.", "ਸੁਧਾਰੀਆਂ ਡਿਸਪੈਂਸਰੀਆਂ, ਨਿਯਮਿਤ ਮੁਫ਼ਤ ਸਿਹਤ ਕੈਂਪ, ਅਤੇ ਹਰ ਯੋਗ ਪਰਿਵਾਰ ਲਈ ਆਯੁਸ਼ਮਾਨ ਕਾਰਡ।"], "स्वच्छ हवा और बुड्ढा नाला": ["Clean air and Buddha Nullah", "ਸਾਫ਼ ਹਵਾ ਅਤੇ ਬੁੱਢਾ ਨਾਲਾ"], "उद्योगों से गंदे पानी के शोधन और धुआँ घटाने के लिए प्रयास, नालों व सड़कों के किनारे पौधारोपण।": ["Push industries to treat effluent and cut smoke, with tree plantation along drains and roads.", "ਉਦਯੋਗਾਂ ਵੱਲੋਂ ਗੰਦੇ ਪਾਣੀ ਦੀ ਸੋਧ ਅਤੇ ਧੂੰਆਂ ਘਟਾਉਣ ਲਈ ਯਤਨ, ਨਾਲਿਆਂ ਤੇ ਸੜਕਾਂ ਕਿਨਾਰੇ ਬੂਟੇ ਲਾਉਣਾ।"], "वन-विंडो हेल्प डेस्क": ["One-window help desk", "ਇੱਕ-ਖਿੜਕੀ ਹੈਲਪ ਡੈਸਕ"], "आधार, राशन, पेंशन, वोटर और आयुष्मान कार्ड तथा शिकायत-निवारण के लिए जन सेवा केंद्र।": ["A Jan Seva Kendra for Aadhaar, ration, pension, voter and Ayushman cards and grievance follow-up.", "ਆਧਾਰ, ਰਾਸ਼ਨ, ਪੈਨਸ਼ਨ, ਵੋਟਰ ਤੇ ਆਯੁਸ਼ਮਾਨ ਕਾਰਡ ਅਤੇ ਸ਼ਿਕਾਇਤ ਨਿਪਟਾਰੇ ਲਈ ਜਨ ਸੇਵਾ ਕੇਂਦਰ।"], "सेवा, संगठन, संस्कार और समर्पण": ["Service, Organisation, Values and Dedication", "ਸੇਵਾ, ਸੰਗਠਨ, ਸੰਸਕਾਰ ਅਤੇ ਸਮਰਪਣ"], "मेरा मानना है कि राजनीति केवल सत्ता का माध्यम नहीं, बल्कि समाज और राष्ट्र सेवा का सबसे बड़ा मंच है। भा.ज.पा. की विचारधारा ‘अंत्योदय, अनुशासन और राष्ट्रवाद’ मेरे मार्गदर्शक सिद्धांत हैं। मैं पूरी निष्ठा, ईमानदारी और समर्पण के साथ संगठन तथा समाज की सेवा के लिए प्रतिबद्ध हूँ।": ["I believe politics is not merely a means to power, but the greatest platform for serving society and the nation. The BJP's ideology of ‘Antyodaya, discipline and nationalism’ is my guiding principle. I am committed to serving the organisation and society with complete devotion, honesty and dedication.", "ਮੇਰਾ ਮੰਨਣਾ ਹੈ ਕਿ ਰਾਜਨੀਤੀ ਸਿਰਫ਼ ਸੱਤਾ ਦਾ ਸਾਧਨ ਨਹੀਂ, ਸਗੋਂ ਸਮਾਜ ਅਤੇ ਰਾਸ਼ਟਰ ਦੀ ਸੇਵਾ ਦਾ ਸਭ ਤੋਂ ਵੱਡਾ ਮੰਚ ਹੈ। ਭਾ.ਜ.ਪਾ. ਦੀ ਵਿਚਾਰਧਾਰਾ ‘ਅੰਤੋਦਿਆ, ਅਨੁਸ਼ਾਸਨ ਅਤੇ ਰਾਸ਼ਟਰਵਾਦ’ ਮੇਰੇ ਮਾਰਗ-ਦਰਸ਼ਕ ਸਿਧਾਂਤ ਹਨ। ਮੈਂ ਪੂਰੀ ਨਿਸ਼ਠਾ, ਈਮਾਨਦਾਰੀ ਅਤੇ ਸਮਰਪਣ ਨਾਲ ਸੰਗਠਨ ਅਤੇ ਸਮਾਜ ਦੀ ਸੇਵਾ ਲਈ ਵਚਨਬੱਧ ਹਾਂ।"], "हमसे मिलें": ["Meet us", "ਸਾਨੂੰ ਮਿਲੋ"], "फ़ोन": ["Phone", "ਫ਼ੋਨ"], "कॉल करें": ["Call", "ਕਾਲ ਕਰੋ"], "कॉपी": ["Copy", "ਕਾਪੀ"], "ईमेल": ["Email", "ਈਮੇਲ"], "ईमेल भेजें": ["Send email", "ਈਮੇਲ ਭੇਜੋ"], "कार्यालय": ["Office", "ਦਫ਼ਤਰ"], "मई 2026 से संचालित": ["Operating since May 2026", "ਮਈ 2026 ਤੋਂ ਚਾਲੂ"], "कार्यालय का कार्य नियमित रूप से जारी है।": ["The office is functioning regularly.", "ਦਫ਼ਤਰ ਦਾ ਕੰਮ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਜਾਰੀ ਹੈ।"], "Google Maps पर देखें": ["View on Google Maps", "ਗੂਗਲ ਮੈਪਸ 'ਤੇ ਵੇਖੋ"], "© 2026 विभोर गर्ग · लुधियाना दक्षिण · डिज़ाइन: Humgence": ["© 2026 Vibhor Garg · Ludhiana South · Design: Humgence", "© 2026 ਵਿਭੋਰ ਗਰਗ · ਲੁਧਿਆਣਾ ਦੱਖਣੀ · ਡਿਜ਼ਾਈਨ: Humgence"], "फ़ोटो": ["Photo", "ਫ਼ੋਟੋ"], "बंद करें": ["Close", "ਬੰਦ ਕਰੋ"], "पिछला": ["Previous", "ਪਿਛਲਾ"], "अगला": ["Next", "ਅਗਲਾ"], "कॉपी हो गया ✓": ["Copied ✓", "ਕਾਪੀ ਹੋ ਗਿਆ ✓"]}, LI={en:0,pa:1}, lang='hi';
+  function norm(s){ return s.replace(/\s+/g,' ').trim(); }
+  function tr(k){ var e=I18N[k]; return (lang==='hi'||!e)?k:e[LI[lang]]; }
+  window.__tr=tr; window.__lang='hi';
+  var tn=[], ta=[];
+  (function(){
+    var w=doc.createTreeWalker(doc.body,NodeFilter.SHOW_TEXT,null), n, raw, k, pn;
+    while((n=w.nextNode())){ pn=n.parentNode.nodeName; if(pn==='SCRIPT'||pn==='STYLE')continue; raw=n.nodeValue; k=norm(raw);
+      if(k&&I18N[k]) tn.push({n:n,k:k,l:/^\s/.test(raw)?' ':'',t:/\s$/.test(raw)?' ':''}); }
+    doc.querySelectorAll('[alt],[aria-label],[title]').forEach(function(el){
+      ['alt','aria-label','title'].forEach(function(a){ var v=el.getAttribute(a); if(v&&I18N[norm(v)]) ta.push({el:el,a:a,k:norm(v)}); });
+    });
+  })();
+  var metaD=doc.querySelector('meta[name=description]'), titleKey=norm(doc.title), descKey=metaD?norm(metaD.getAttribute('content')):'';
+  function setLang(l,save){
+    lang=l; window.__lang=l;
+    tn.forEach(function(o){ o.n.nodeValue=o.l+tr(o.k)+o.t; });
+    ta.forEach(function(o){ o.el.setAttribute(o.a,tr(o.k)); });
+    doc.documentElement.lang=l;
+    doc.title=tr(titleKey); if(metaD) metaD.setAttribute('content',tr(descKey));
+    doc.querySelectorAll('#lang button').forEach(function(b){ var on=b.getAttribute('data-l')===l; b.classList.toggle('on',on); b.setAttribute('aria-pressed',on?'true':'false'); });
+    if(lb.classList.contains('open')) show(cur);
+    if(window.__ringRedraw) window.__ringRedraw();
+    if(save){ try{ localStorage.setItem('vg-lang',l); }catch(e){} }
+  }
+  doc.querySelectorAll('#lang button').forEach(function(b){ b.addEventListener('click',function(){ setLang(b.getAttribute('data-l'),true); }); });
+  var saved='hi'; try{ saved=localStorage.getItem('vg-lang')||'hi'; }catch(e){}
+  if(LI[saved]!==undefined) setLang(saved,false);
+})();
+</script>
+
+<script>
+/* ---------------- hero 3D scene (original) ---------------- */
+(function(){
+  if(typeof THREE==='undefined'){ document.getElementById('loader').classList.add('done'); return; }
+  const PHOTO = "img/vibhor.webp";
+  const heroEl = document.getElementById('hero');
+  const canvas = document.getElementById('scene');
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:false});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setClearColor(0x0b0a14, 1);
+  const scene = new THREE.Scene();
+  scene.fog = new THREE.FogExp2(0x0b0a14, 0.035);
+  const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 200);
+  camera.position.set(0, 0, 14);
+
+  const SAFFRON = new THREE.Color(0xff7a1a), GOLD = new THREE.Color(0xffc27a),
+        GREEN = new THREE.Color(0x1fae63), WHITE = new THREE.Color(0xfff4e6);
+
+  function glowTex(){
+    const c=document.createElement('canvas'); c.width=c.height=64;
+    const g=c.getContext('2d'), r=g.createRadialGradient(32,32,0,32,32,32);
+    r.addColorStop(0,'rgba(255,255,255,1)'); r.addColorStop(.3,'rgba(255,255,255,.7)'); r.addColorStop(1,'rgba(255,255,255,0)');
+    g.fillStyle=r; g.fillRect(0,0,64,64); return new THREE.CanvasTexture(c);
+  }
+  function petalTex(){
+    const c=document.createElement('canvas'); c.width=64; c.height=96;
+    const g=c.getContext('2d'); const gr=g.createLinearGradient(0,0,0,96);
+    gr.addColorStop(0,'rgba(255,255,255,1)'); gr.addColorStop(1,'rgba(255,255,255,.35)');
+    g.fillStyle=gr; g.beginPath(); g.moveTo(32,2);
+    g.bezierCurveTo(64,30,58,80,32,94); g.bezierCurveTo(6,80,0,30,32,2); g.fill();
+    return new THREE.CanvasTexture(c);
+  }
+  const glow = glowTex();
+
+  const world = new THREE.Group(); scene.add(world);
+
+  const N = 2200, pos = new Float32Array(N*3), col = new Float32Array(N*3);
+  for(let i=0;i<N;i++){
+    const r = 6 + Math.random()*40, t = Math.random()*Math.PI*2, p = Math.acos(2*Math.random()-1);
+    pos[i*3]=r*Math.sin(p)*Math.cos(t); pos[i*3+1]=r*Math.sin(p)*Math.sin(t)*.6; pos[i*3+2]=r*Math.cos(p)-12;
+    const c = [SAFFRON,GOLD,WHITE,WHITE,GREEN][i%5]; col[i*3]=c.r; col[i*3+1]=c.g; col[i*3+2]=c.b;
+  }
+  const dustGeo = new THREE.BufferGeometry();
+  dustGeo.setAttribute('position', new THREE.BufferAttribute(pos,3));
+  dustGeo.setAttribute('color', new THREE.BufferAttribute(col,3));
+  const dust = new THREE.Points(dustGeo, new THREE.PointsMaterial({size:.16, map:glow, vertexColors:true, transparent:true, depthWrite:false, blending:THREE.AdditiveBlending, opacity:.85}));
+  world.add(dust);
+
+  const hero = new THREE.Group(); world.add(hero);
+
+  const halo = new THREE.Mesh(new THREE.PlaneGeometry(14,14),
+    new THREE.MeshBasicMaterial({map:glow, color:SAFFRON, transparent:true, opacity:.55, depthWrite:false, blending:THREE.AdditiveBlending}));
+  halo.position.set(0,.6,-2.2); hero.add(halo);
+
+  const rings=[];
+  [[3.6,.025,SAFFRON,0],[4.4,.018,GOLD,1.1],[5.3,.014,GREEN,2.2],[6.2,.01,WHITE,.6]].forEach(([r,t,c,phase],i)=>{
+    const m = new THREE.Mesh(new THREE.TorusGeometry(r,t,8,200),
+      new THREE.MeshBasicMaterial({color:c, transparent:true, opacity:.7-i*.12, blending:THREE.AdditiveBlending, depthWrite:false}));
+    m.position.set(0,.6,-1.6); m.userData.phase=phase; hero.add(m); rings.push(m);
+    const bead = new THREE.Sprite(new THREE.SpriteMaterial({map:glow, color:c, blending:THREE.AdditiveBlending, depthWrite:false}));
+    bead.scale.set(.6,.6,.6); bead.userData={r, speed:.25+i*.08, phase}; m.add(bead); m.userData.bead=bead;
+  });
+
+  const ptex = petalTex(), mandala = new THREE.Group();
+  for(let layer=0;layer<2;layer++){
+    const count = layer?16:10, rad = layer?2.9:2.1;
+    for(let i=0;i<count;i++){
+      const a=i/count*Math.PI*2 + layer*.2;
+      const s = new THREE.Mesh(new THREE.PlaneGeometry(layer?.9:1.1, layer?1.5:1.8),
+        new THREE.MeshBasicMaterial({map:ptex, color:layer?GOLD:SAFFRON, transparent:true, opacity:layer?.22:.32, depthWrite:false, side:THREE.DoubleSide, blending:THREE.AdditiveBlending}));
+      s.position.set(Math.cos(a)*rad, Math.sin(a)*rad, 0); s.rotation.z=a-Math.PI/2; mandala.add(s);
+    }
+  }
+  mandala.position.set(0,.9,-2); hero.add(mandala);
+
+
+  // rotating text ring around the portrait: "विभोर गर्ग • लुधियाना दक्षिण"
+  const RC=document.createElement('canvas'); RC.width=4096; RC.height=130;
+  const ringTex=new THREE.CanvasTexture(RC); ringTex.anisotropy=8;
+  function drawRing(){
+    const g=RC.getContext('2d'), W=RC.width, H=RC.height;
+    g.clearRect(0,0,W,H);
+    const RING={hi:'विभोर गर्ग  •  लुधियाना दक्षिण  •  ',en:'VIBHOR GARG  •  LUDHIANA SOUTH  •  ',pa:'ਵਿਭੋਰ ਗਰਗ  •  ਲੁਧਿਆਣਾ ਦੱਖਣੀ  •  '};
+    const unit=RING[window.__lang||'hi'];
+    const fam='Teko, Hind, "Noto Sans Devanagari", "Noto Sans Gurmukhi", sans-serif';
+    g.font='700 100px '+fam; const w100=g.measureText(unit).width;
+    const n=Math.max(2,Math.ceil(W*100/(90*w100)));      // whole number of repeats around the ring
+    const fs=100*(W/n)/w100;                             // scale so the repeats tile exactly
+    g.font='700 '+fs+'px '+fam; g.textBaseline='alphabetic';
+    const grad=g.createLinearGradient(0,0,0,H); grad.addColorStop(0,'#fff3e2'); grad.addColorStop(1,'#ff9a3c');
+    g.fillStyle=grad; g.shadowColor='rgba(255,122,26,.9)'; g.shadowBlur=16;
+    for(let k=0;k<n;k++) g.fillText(unit,k*W/n,H*0.72);
+    ringTex.needsUpdate=true;
+  }
+  drawRing();
+  window.__ringRedraw=function(){ drawRing(); if(document.fonts&&document.fonts.load){ document.fonts.load('700 100px Teko','VIBHOR').then(drawRing).catch(function(){}); document.fonts.load('700 100px "Noto Sans Gurmukhi"','ਵਿਭੋਰ').then(drawRing).catch(function(){}); } };
+  if(window.__lang&&window.__lang!=='hi') window.__ringRedraw();
+  if(document.fonts&&document.fonts.load){
+    Promise.all([document.fonts.load('700 100px Teko','विभोर'),document.fonts.load('700 100px Hind','विभोर')]).then(drawRing).catch(function(){});
+    if(document.fonts.ready) document.fonts.ready.then(drawRing);
+  }
+  const RR=4.3, RH=RR*2*Math.PI*RC.height/RC.width;
+  const ringTilt=new THREE.Group(); ringTilt.position.set(0,.7,0); ringTilt.rotation.set(.2,0,-.06); hero.add(ringTilt);
+  const ringSpin=new THREE.Group(); ringTilt.add(ringSpin);
+  const ringGeo=new THREE.CylinderGeometry(RR,RR,RH,180,1,true);
+  const ringFront=new THREE.Mesh(ringGeo,new THREE.MeshBasicMaterial({map:ringTex,transparent:true,side:THREE.FrontSide,depthWrite:false}));
+  const ringBack=new THREE.Mesh(ringGeo,new THREE.MeshBasicMaterial({map:ringTex,transparent:true,side:THREE.BackSide,depthWrite:false,opacity:.45}));
+  ringFront.renderOrder=5; ringBack.renderOrder=4; ringSpin.add(ringBack,ringFront);
+
+  const floor = new THREE.GridHelper(80, 80, 0xff7a1a, 0x2a1d22);
+  floor.material.transparent=true; floor.material.opacity=.25; floor.position.y=-4.2; world.add(floor);
+  const podium = new THREE.Mesh(new THREE.RingGeometry(1.6,3.4,64),
+    new THREE.MeshBasicMaterial({color:SAFFRON, transparent:true, opacity:.25, side:THREE.DoubleSide, blending:THREE.AdditiveBlending, depthWrite:false}));
+  podium.rotation.x=-Math.PI/2; podium.position.y=-4.15; hero.add(podium);
+
+  let portrait, portraitAspect = 900/1016;
+  new THREE.TextureLoader().load(PHOTO, tex=>{
+    tex.encoding = THREE.sRGBEncoding; tex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+    portraitAspect = tex.image.width/tex.image.height;
+    const h = 8.4, w = h*portraitAspect;
+    portrait = new THREE.Mesh(new THREE.PlaneGeometry(w,h),
+      new THREE.MeshBasicMaterial({map:tex, transparent:true, depthWrite:false, depthTest:false}));
+    portrait.position.set(0, h/2-4.2, .5); portrait.renderOrder=10; hero.add(portrait);
+    const refl = portrait.clone(); refl.material = portrait.material.clone();
+    refl.material.opacity=.12; refl.scale.y=-1; refl.position.y = -4.2 - h/2; refl.renderOrder=9; hero.add(refl);
+    layout(); done();
+  }, undefined, done);
+  renderer.outputEncoding = THREE.sRGBEncoding;
+
+  function done(){ document.getElementById('loader').classList.add('done'); }
+
+  const floaters=[];
+  for(let i=0;i<40;i++){
+    const m=new THREE.Mesh(new THREE.PlaneGeometry(.22,.34),
+      new THREE.MeshBasicMaterial({map:ptex, color:[SAFFRON,GOLD,WHITE,GREEN][i%4], transparent:true, opacity:.75, depthWrite:false, side:THREE.DoubleSide}));
+    m.position.set((Math.random()-.5)*26,(Math.random()-.5)*14,(Math.random()-.5)*10);
+    m.userData={v:.004+Math.random()*.01, spin:(Math.random()-.5)*.03, sway:Math.random()*6};
+    world.add(m); floaters.push(m);
+  }
+
+  let mobile=false;
+  function layout(){
+    const w=heroEl.clientWidth, h=heroEl.clientHeight;
+    renderer.setSize(w,h,false); camera.aspect=w/h; mobile = w<820;
+    if(mobile){
+      camera.fov=55; camera.position.z=17;
+      hero.position.set(0,5.1,0); hero.scale.setScalar(.66);
+    }else{
+      camera.fov=42; camera.position.z=14;
+      const visW = 2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2))*14*camera.aspect;
+      hero.position.set(Math.min(visW*.2, 6), 0, 0); hero.scale.setScalar(1);
+    }
+    camera.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', layout); layout();
+
+  const target={x:0,y:0}, cur={x:0,y:0};
+  window.addEventListener('pointermove', e=>{ target.x=e.clientX/innerWidth*2-1; target.y=e.clientY/innerHeight*2-1; });
+  window.addEventListener('deviceorientation', e=>{ if(e.gamma==null) return; target.x=Math.max(-1,Math.min(1,e.gamma/30)); target.y=Math.max(-1,Math.min(1,(e.beta-45)/30)); });
+
+  // only animate while the hero is on screen
+  let visible=true;
+  if('IntersectionObserver' in window){ new IntersectionObserver(es=>{ visible=es[0].isIntersecting; }).observe(heroEl); }
+
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const clock = new THREE.Clock();
+  function tick(){
+    requestAnimationFrame(tick);
+    if(!visible) return;
+    const t = clock.getElapsedTime(), k = reduce ? 0 : 1;
+    cur.x += (target.x-cur.x)*.05; cur.y += (target.y-cur.y)*.05;
+    world.rotation.y = cur.x*.12; world.rotation.x = cur.y*.06;
+    camera.position.x = cur.x*.8; camera.position.y = -cur.y*.5; camera.lookAt(0,0,0);
+
+    hero.rotation.y = cur.x*.25;
+    if(portrait) portrait.position.y = portrait.geometry.parameters.height/2-4.2 + Math.sin(t*1.2)*.08*k;
+    mandala.rotation.z = t*.08*k;
+    ringSpin.rotation.y = -t*.45*k;
+    halo.material.opacity = .45 + Math.sin(t*1.5)*.1*k;
+    rings.forEach((r,i)=>{
+      r.rotation.x = Math.PI/2.4 + Math.sin(t*.3+r.userData.phase)*.25*k;
+      r.rotation.y = t*(.1+i*.05)*k + r.userData.phase;
+      const b=r.userData.bead, a=t*b.userData.speed*k*3+b.userData.phase;
+      b.position.set(Math.cos(a)*b.userData.r, Math.sin(a)*b.userData.r, 0);
+    });
+    dust.rotation.y = t*.015*k;
+    floaters.forEach(f=>{
+      f.position.y += f.userData.v*k; f.position.x += Math.sin(t+f.userData.sway)*.003*k;
+      f.rotation.z += f.userData.spin*k; f.rotation.y += f.userData.spin*.7*k;
+      if(f.position.y>8) f.position.y=-8;
+    });
+    renderer.render(scene,camera);
+  }
+  tick();
+  setTimeout(done, 4000);
+})();
+</script>
+<div class="logo-cur" id="logoCur" aria-hidden="true"><img id="lc1" src="img/cur-vibhor.webp" alt=""><img id="lc2" src="img/cur-bjp.webp" alt=""><i></i></div>
+<script>
+(function(){
+  try{
+    if(!matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+    var box=document.getElementById('logoCur'), a=document.getElementById('lc1'), b=document.getElementById('lc2');
+    if(!box||!a||!b) return;
+    var mx=-100,my=-100,x=-100,y=-100,R=32,Rt=32,ang=0,seen=false,reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.addEventListener('mousemove',function(e){
+      mx=e.clientX; my=e.clientY;
+      if(!seen){ seen=true; x=mx; y=my; box.classList.add('on'); }
+      var el=e.target&&e.target.closest?e.target.closest('a,button,[role=button],input,textarea,.ph,.pi'):null;
+      Rt=el?44:32;
+    },{passive:true});
+    document.addEventListener('mouseleave',function(){ box.classList.remove('on'); seen=false; });
+    document.addEventListener('mouseenter',function(){ if(mx>0) box.classList.add('on'); });
+    var last=performance.now(), vis=true;
+    document.addEventListener('visibilitychange',function(){ vis=!document.hidden; if(vis){ last=performance.now(); requestAnimationFrame(tick);} });
+    function tick(now){
+      if(!vis) return;
+      var dt=Math.min(50,now-last); last=now;
+      x+=(mx-x)*Math.min(1,dt*.02); y+=(my-y)*Math.min(1,dt*.02);
+      R+=(Rt-R)*Math.min(1,dt*.012);
+      if(!reduce) ang+=dt*.0032;
+      box.style.transform='translate3d('+x.toFixed(1)+'px,'+y.toFixed(1)+'px,0)';
+      a.style.transform='translate('+(Math.cos(ang)*R).toFixed(1)+'px,'+(Math.sin(ang)*R).toFixed(1)+'px)';
+      b.style.transform='translate('+(Math.cos(ang+Math.PI)*R).toFixed(1)+'px,'+(Math.sin(ang+Math.PI)*R).toFixed(1)+'px)';
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
